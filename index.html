@@ -6,34 +6,48 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Home Page</title>
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <a href="index.html">LOGO</a>
-                <div>  
-                    <button class="language">
-                        <span>Site language: English</span>
-                        <i class="fa fa-caret-down"></i>
-                    </button>
+        <a href="index.html" class="logo">LOGO</a>
+        <div class="nav-menu" id="mynav-menu">
+            <div class="dropdown">
+                <a href="userprofile.html">Account</a>  
+                <button class="dropbtn">
+                    <span>Site language</span>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>English</p>
+                    <p>French</p>
                 </div>
-            </nav>
+            </div>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
     </header>
+    <div class="headertext">
+        <h2>Welcome back,</h2>
+        <h3>name!</h3>
+        <h3>Let's get practising!</h3>
+    </div>
     <div class="headerpants">
         <br>
     </div>
 
     <section class="menucontainer">
-        <button href="hiragana.html">Hiragana</button>
-        <button href="katakana.html">Katakana</button>
-        <button href="kanji">Kanji</button>
+        <button href="hiragana.html">Hiragana あ</button>
+        <button href="katakana.html">Katakana ア</button>
+        <button href="kanji">Kanji 漢字</button>
         <button href="words.html">Words</button>
         <button href="tests.html">Tests</button>
         <button href="leaderboard.html">Leaderboards</button>
     </section>
+
     <footer>
         <ul class="socialicons">
             <li>
@@ -53,5 +67,6 @@
             </li>
         </ul>
     </footer>
+    <script src="assets/js/burger.js"></script>
 </body>
 </html>
