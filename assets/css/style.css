@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&display=swap');
 
-/* 
+/*
 #6970FD header 
 #5F64D4 header shade/button font
 #8AF3FF button
 #72C2CB button shade */
+
+.m-plus-rounded-1c-regular {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 * {
     text-decoration: none;
     list-style: none;
-    font-family: 'Balsamiq Sans';
+    font-family: 'Balsamiq Sans', "M PLUS Rounded 1c", 'sans-serif';
     color:#fff;
     margin:0;
     padding:0;
@@ -183,6 +191,15 @@ section.menucontainer button {
     background-color:#6970FD;
     text-align: center;
     padding:10px;
+}
+th, tr, td {
+    font-family: "M PLUS Rounded 1c";
+    color:#5F64D4;
+    font-size:32px;
+    font-weight:bold;
+}
+section.container h2, section.container p {
+    color: #6970FD;
 }
 footer {
     background-color: #6970FD;
