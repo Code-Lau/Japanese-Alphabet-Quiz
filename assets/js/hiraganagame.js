@@ -4,6 +4,10 @@
 
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
+const progressText = document.getElementById("progressText")
+const scoreText = document.getElementById("score")
+const progressBarFull = document.getElementById("progressBarFull")
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -50,7 +54,7 @@ let questions = [
         choice2:'U',
         choice3:'O',
         choice4:'I',
-        answer:1,
+        answer:3,
     },
 ];
 
@@ -66,10 +70,14 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        //go to the end page
         return window.location.assign('/hiraganaend.html');
     }
     questionCounter++;
+    /* Progress Bar: https://www.youtube.com/watch?v=4bctmtuZVcM&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=7 */
+    progressText.innerText = "Question " + questionCounter + "/" + MAX_QUESTIONS;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -83,15 +91,35 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
-choices.forEach((choice) => {
-    choice.addEventListener('click', (e) => {
+choices.forEach(choice => {
+    choice.addEventListener("click", e => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
-        getNewQuestion();
+        const selectedAnswer = selectedChoice.dataset["number"];
+
+        /* Display Feedback: https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5 */
+        const classToApply = 
+          selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+    
+        if (classToApply == "correct") {
+            incrementScore(CORRECT_BONUS);
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply);
+        
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
     });
 });
+/* Score Increment: https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6 */
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+}
+
 
 startGame();
