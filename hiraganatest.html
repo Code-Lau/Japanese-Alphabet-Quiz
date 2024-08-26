@@ -9,10 +9,28 @@
     <link rel="stylesheet" href="assets/css/game.css">
     <title>Hiragana Test</title>
 </head>
-  <body class="gamepage"><!-- Game Choices Format: https://www.youtube.com/watch?v=IK257Ln0MZc&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4 -->
-    <div class="container">
-      <div id="game" class="justify-center flex-column">
-        <h2 id="question">What is the answer to this questions?</h2>
+<body class="gamepage"><!--  Game Choices Format: https://www.youtube.com/watch?v=IK257Ln0MZc&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4 -->
+  <div class="container">
+    <div id="game" class="justify-center flex-column">
+      <div id="hud">
+        <div id="hud-item">
+          <p id="progressText" class="hud-prefix">
+            Question
+          </p>
+          <div id="progressBar">
+            <div id="progressBarFull"></div>
+          </div>
+        </div> 
+        <div id="hud-item">
+          <p class="hud-prefix">
+            Score
+          </p>
+          <h1 class="hud-main-text" id="score">
+            0
+          </h1>
+        </div>
+      </div>
+      <h2 id="question">What is the answer to this questions?</h2>
         <div class="choice-container">
           <p class="choice-prefix">1</p>
           <p class="choice-text" data-number="1">Choice 1</p>
