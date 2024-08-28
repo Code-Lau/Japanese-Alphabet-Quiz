@@ -5,7 +5,7 @@
 #72C2CB button shade */
 
 .gamepage {
-    background-color: coral;
+    background-color: #fff;
     
 }
 
@@ -15,30 +15,39 @@
 
 .choice-container {
     display:flex;
-    margin-bottom:0.5rem;
-    width:100%;
+    margin-bottom:1rem;
+    width:80vw;
     font-size:1.8rem;
     border: 0.1rem solid rgb (86, 165, 235, 0.25);
+    border-radius: 3em;
     background-color: #8AF3FF;
 }
 
 .choice-container:hover {
     cursor:pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185 235, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
+    /* transform: translateY(-0.1rem); 
+    transition: transform 150ms; 
+    
+    put this in media query
+    */ 
 }
 
 .choice-prefix {
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 3rem;
     background-color: #72C2CB;
     color:#fff;
+    border-radius: 3em;
 }
 
 .choice-text {
-    padding: 1.5rem;
-    color:#fff;
+    padding: 1.5rem 3rem;
 }
+
+#question, .choice-text {
+    color: #6970FD;
+    text-align:center;
+} 
 
 .correct {
     background-color:#28a745;
@@ -50,29 +59,41 @@
 
 #hud {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .hud-prefix {
     text-align: center;
     font-size:24px;
+    color: #6970FD;
 }
 
 .hud-main-text {
     text-align: center;
+    color: #6970FD;
+}
+
+#progressBar,#progressBarFull {
+    justify-content:center;
 }
 
 #progressBar {
-    width:20rem;
+    width:10rem;
     height:4rem;
-    border: 0.3rem solid green;
+    border: 0.3rem solid #5F64D4;
+    border-radius:3em;
+    justify-content:center;
 }
 
 #progressBarFull {
     height: 4rem;
-    background-color: green;
+    background-color: #6970FD;
     width: 0%;
+    border-radius:3em;
 }
+
+
+
 .btn {
     font-size:1.8rem;
     padding:1rem 0;
