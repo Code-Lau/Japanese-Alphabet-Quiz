@@ -9,27 +9,75 @@
     <title>End of Quiz</title>
 </head>
 <body><!-- remove onclick later -->
-    <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore">0</h1>
-            <form>
-                <input
-                type="text"
-                name="username"
-                id="username"
-                placeholder="username"
-                />
-                <button 
-                type="submit" 
-                class="btn" 
-                id="saveScoreBtn"
-                onclick="saveHighScore(event)" 
-                >Save
+    <header>
+        <a href="index.html" class="logo">LOGO</a>
+        <div class="nav-menu" id="mynav-menu">
+            <div class="dropdown">
+                <a href="login.html">Login</a>  
+                <button class="dropbtn">
+                    <span>Site language</span>
+                    <i class="fa fa-caret-down"></i>
                 </button>
-            </form>
-            <a class="btn" href="/hiraganatest.html">Play Again</a>
-            <a class="btn" href="/hiragana.html">Return to Hiragana Index</a>
+                <div class="dropdown-content">
+                    <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('hi')">हिंदी</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="end" class="flex-center flex-column">
+                <h1 id="finalScore">0</h1>
+                <form>
+                    <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="username"
+                    />
+                    <button 
+                    type="submit" 
+                    class="btn" 
+                    id="saveScoreBtn"
+                    onclick="saveHighScore(event)" 
+                    >Save
+                    </button>
+                </form>
+                <a class="btn" href="/hiraganatest.html">Play Again</a>
+                <a class="btn" href="/hiragana.html">Return to Hiragana Index</a>
+            </div>
+        </div>
+        <footer>
+            <ul class="socialicons">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </main>
     <script src="assets/js/hiraganagame.js"></script>
 </body>
