@@ -9,8 +9,40 @@
     <title>Hiragana</title>
 </head>
 <body>
-    <header></header>
-    <h1>Hiragana</h1>
+    <header>
+        <a href="index.html" class="logo">LOGO</a>
+        <div class="nav-menu" id="mynav-menu">
+            <div class="dropdown">
+                <a href="login.html">Login</a>  
+                <button class="dropbtn">
+                    <span>Site language</span>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('hi')">हिंदी</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <div class="headertext">
+        <h1>Hiragana</h1>
+    </div>
+    <div class="headershadow">
+        <br>
+    </div>
+    <h1></h1>
     
     <section class="container">
         <p>Hiragana is one of the three types of Japanese syllabary, alongside Katakana and Kanji. Hiragana and Katakana are
@@ -137,5 +169,26 @@
         </table>
     </section>
     <p><a href="hiraganatest.html" class="btn">Take a test</a></p>
+    <footer>
+        <ul class="socialicons">
+            <li>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    </main>
+    <script src="assets/js/burger.js"></script>
 </body>
 </html>
