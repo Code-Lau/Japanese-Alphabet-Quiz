@@ -6,21 +6,27 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home Page</title>
+    <title data-i18n="title_home"></title>
 </head>
 <body>
     <header>
         <a href="index.html" class="logo">LOGO</a>
         <div class="nav-menu" id="mynav-menu">
             <div class="dropdown">
-                <a href="userprofile.html">Account</a>  
-                <button class="dropbtn">
+                <a href="login.html">Login</a>  
+                <a class="dropbtn">
                     <span>Site language</span>
                     <i class="fa fa-caret-down"></i>
-                </button>
+                </a>
                 <div class="dropdown-content">
-                    <p>English</p>
-                    <p>French</p>
+                    <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('hi')">हिंदी</a></li>
+                    <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
                 </div>
             </div>
         </div>
@@ -31,23 +37,23 @@
         </div>
     </header>
     <div class="headertext">
-        <h2>Welcome back,</h2>
+        <h2 data-i18n="welcome_message"></h2>
         <h3>name!</h3>
-        <h3>Let's get practising!</h3>
+        <h3 data-i18n="welcome_message_p2"></h3>
     </div>
-    <div class="headerpants">
+    <div class="headershadow">
         <br>
     </div>
-
+<main>
     <section class="menucontainer">
-        <button href="hiragana.html">Hiragana あ</button>
-        <button href="katakana.html">Katakana ア</button>
-        <button href="kanji">Kanji 漢字</button>
-        <button href="words.html">Words</button>
-        <button href="tests.html">Tests</button>
-        <button href="leaderboard.html">Leaderboards</button>
+        <a href="hiragana.html">Hiragana あ</a>
+        <a href="katakana.html">Katakana ア</a>
+        <a href="kanji">Kanji 漢字</a>
+        <a href="words.html">Words</a>
+        <a href="tests.html">Tests</a>
+        <a href="leaderboard.html">Leaderboards</a>
     </section>
-
+</main>
     <footer>
         <ul class="socialicons">
             <li>
@@ -67,6 +73,7 @@
             </li>
         </ul>
     </footer>
-    <script src="assets/js/burger.js"></script>
+    <script src="assets/js/burgermenu_script.js"></script>
+    <script src="assets/js/language_script.js"></script>
 </body>
 </html>
