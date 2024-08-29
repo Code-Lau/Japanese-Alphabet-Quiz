@@ -20,6 +20,11 @@
     color:#fff;
     margin:0;
     padding:0;
+    background-color: green;
+}
+
+h2 data-i18n {
+    color:red;
 }
 
 html, body {
