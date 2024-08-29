@@ -44,6 +44,11 @@
     padding: 1.5rem 3rem;
 }
 
+#choices-grid {
+    display: flex;
+    flex-direction: column;
+}
+
 #question, .choice-text {
     color: #6970FD;
     text-align:center;
