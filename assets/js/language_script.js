@@ -1,4 +1,4 @@
-//1-4 Taken from: https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505
+//1-5 Taken from: https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505
 
 
 // 1. Function to update content based on selected language
@@ -21,11 +21,9 @@ async function fetchLanguageData(lang) {
 }
 
 // 4. Function to change language
-async function changeLanguage(lang) {
-    await setLanguagePreference(lang);
-    
-    const langData = await fetchLanguageData(lang);
-    updateContent(langData);
+function changeLanguage(lang) {
+    localStorage.setItem('language', lang);
+    location.reload();
 }
 
  // 5. Call updateContent() on page load
@@ -33,5 +31,4 @@ async function changeLanguage(lang) {
     const userPreferredLanguage = localStorage.getItem('language') || 'en';
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
-    toggleArabicStylesheet(userPreferredLanguage);
   });
