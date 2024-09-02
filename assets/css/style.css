@@ -20,7 +20,6 @@
     color:#fff;
     margin:0;
     padding:0;
-    background-color: green;
 }
 
 h2 data-i18n {
@@ -185,6 +184,14 @@ section.menucontainer a {
     text-align: center;
     padding:10px;
 }
+.container {
+    color:#5F64D4;
+    background-color: green;
+}
+table {
+    color:#5F64D4;
+    background-color: red;
+}
 th, tr, td {
     font-family: "M PLUS Rounded 1c";
     color:#5F64D4;
@@ -208,26 +215,6 @@ footer {
 .socialicons li:hover {
     transform: translateY(-10px);
     transition: all 0.55s ease-in-out;
-}
-/* Create Page */
-
-button.signup, button.cancelbtn {
-    color:red;
-}
-form.modal-content h1, form.modal-content p  {
-    color:green;
-}
-
-form.modal-content div.container label {
-    color:blue;
-}
-
-label b {
-    color:grey;
-}
-
-input:required {
-    color:grey;
 }
 
 /* Media Queries */
