@@ -16,14 +16,16 @@ function setLanguagePreference(lang) {
 
 // 3. Function to fetch language data
 async function fetchLanguageData(lang) {
-    const response = await fetch(`languages/${lang}.json`);
+    const response = await fetch(`assets/json/${lang}.json`);
     return response.json();
 }
 
 // 4. Function to change language
-function changeLanguage(lang) {
-    localStorage.setItem('language', lang);
-    location.reload();
+async function changeLanguage(lang) {
+    await setLanguagePreference(lang);
+    
+    const langData = await fetchLanguageData(lang);
+    updateContent(langData);
 }
 
  // 5. Call updateContent() on page load
