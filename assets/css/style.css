@@ -170,7 +170,7 @@ i {
 }
 
 /* Body */
-.container h2, .container p {
+.container h2, .container p, table h2 {
     color:#5F64D4;
 }
 
@@ -215,7 +215,9 @@ table {
     margin-top:1em;
 }
 
-
+tr {
+    padding:10em;
+}
 
 tr, td {
     border: 5px solid #72C2CB;
@@ -226,8 +228,9 @@ th, tr {
     background-color: #8AF3FF;
 }
 
-thead {
-    background-color: #fff;
+table tr th {
+    border:solid 5px #72C2CB;
+    font-size:40px;
 }
 
 th, tr, td {
