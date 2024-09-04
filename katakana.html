@@ -1,198 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title data-i18n="title_home"></title>
-</head>
-<body>
-    <header>
-        <a href="index.html" class="logo">LOGO</a>
-        <div class="nav-menu" id="mynav-menu">
-            <div class="dropdown">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="hiragana.html">Hiragana</a></li>
-                    <li><a href="katakana.html">Katakana</a></li>
-                    <li><a href="kanji.html">Kanji</a></li>   
-                    <li><a href="words.html">Words</a></li> 
-                    <li><a href="tests.html">Tests</a></li>
-                    <li><a href="leaderboard.html">Leaderboards</a></li>
-                    <li><a class="dropbtn">Site language<i class="fa fa-caret-down"></i></a></li>
-                </ul>
-                <div class="dropdown-content">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title data-i18n="title_home"></title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">LOGO</a>
+            <div class="nav-menu" id="mynav-menu">
+                <div class="dropdown">
                     <ul>
-                        <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
-                        <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
-                        <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
-                        <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
-                        <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
-                        <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
-                        <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="hiragana.html">Hiragana</a></li>
+                        <li><a href="katakana.html">Katakana</a></li>
+                        <li><a href="kanji.html">Kanji</a></li>   
+                        <li><a href="words.html">Words</a></li> 
+                        <li><a href="tests.html">Tests</a></li>
+                        <li><a href="leaderboard.html">Leaderboards</a></li>
+                        <li><a class="dropbtn">Site language<i class="fa fa-caret-down"></i></a></li>
                     </ul>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+                            <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
+                            <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
+                            <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
+                            <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
+                            <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
+                            <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
+                        </ul>
+                    </div>
+                    
                 </div>
-                
             </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </header>
+        <div class="headershadow">
+            <br>
         </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </header>
-    <div class="headershadow">
-        <br>
-    </div>
-    
-    <section class="container">
-        <p>Katakana is one of the three types of Japanese syllabary, alongside Hiragana and Kanji. Katakana and Hiragana are
-        referred to as phonetic lettering systems and "kana" systems. Each character, excluding the vowels themselves,
-        represents a consonant followed by a vowel. The characters of the kana do not represent single consonants, so that makes
-        it a syllabic symbol system rather than alphabetic letters. There is only one exception, being ン.
-        </p>
-        <p>Katakana has 48 characters: 5 of which are vowels and the remaining 42 are consonant-vowel unions. Only one is a singular 
-            consonant, the aformentioned ン(n). Following the additionof a dakuten, a voiceless consonant is turned into a voice 
-            one. For example, カ (ka) turns into ガ (ga).
+    <main>
+        <section class="container">
+            <p data-i18n="katakana_intro"></p>
+            <p data-i18n="katakana_intro_p2"></p>
+            <h2 data-i18n="seion"></h2>
+            <table>
+                    <tr>
+                        <td>ア</td>
+                        <td>イ</td>
+                        <td>ウ</td>
+                        <td>エ</td>
+                        <td>オ</td>
+                    </tr>
+                    <tr>                   
+                        <td data-i18n="a"></td>
+                        <td data-i18n="i"></td>
+                        <td data-i18n="u"></td>
+                        <td data-i18n="e"></td>
+                        <td data-i18n="o"></td>
+                    </tr>
+                    <tr>
+                        <td>カ</td>
+                        <td>キ</td>
+                        <td>ク</td>
+                        <td>ケ</td>
+                        <td>コ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ka"></td>
+                        <td data-i18n="ki"></td>
+                        <td data-i18n="ku"></td>
+                        <td data-i18n="ke"></td>
+                        <td data-i18n="ko"></td>
+                    </tr>
+                    <tr>
+                        <td>サ</td>
+                        <td>シ</td>
+                        <td>ス</td>
+                        <td>セ</td>
+                        <td>ソ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="sa"></td>
+                        <td data-i18n="shi"></td>
+                        <td data-i18n="su"></td>
+                        <td data-i18n="se"></td>
+                        <td data-i18n="so"></td>
+                    </tr>
+                    <tr>
+                        <td>タ</td>
+                        <td>チ</td>
+                        <td>ツ</td>
+                        <td>テ</td>
+                        <td>ト</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ta"></td>
+                        <td data-i18n="chi"></td>
+                        <td data-i18n="tsu"></td>
+                        <td data-i18n="te"></td>
+                        <td data-i18n="to"></td>
+                    </tr>
+                    <tr>
+                        <td>ナ</td>
+                        <td>ニ</td>
+                        <td>ヌ</td>
+                        <td>ネ</td>
+                        <td>ノ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="na"></td>
+                        <td data-i18n="ni"></td>
+                        <td data-i18n="nu"></td>
+                        <td data-i18n="ne"></td>
+                        <td data-i18n="no"></td>
+                    </tr>
+                    <tr>
+                        <td>ハ</td>
+                        <td>ヒ</td>
+                        <td>フ</td>
+                        <td>ヘ</td>
+                        <td>ホ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ha"></td>
+                        <td data-i18n="hi"></td>
+                        <td data-i18n="fu"></td>
+                        <td data-i18n="he"></td>
+                        <td data-i18n="ho"></td>
+                    </tr>
+                    <tr>
+                        <td>マ</td>
+                        <td>ミ</td>
+                        <td>ム</td>
+                        <td>メ</td>
+                        <td>モ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ma"></td>
+                        <td data-i18n="mi"></td>
+                        <td data-i18n="mu"></td>
+                        <td data-i18n="me"></td>
+                        <td data-i18n="mo"></td>
+                    </tr>
+                    <tr>
+                        <td>ヤ</td>
+                        <td class="blank"></td>
+                        <td>ユ</td>
+                        <td class="blank"></td>
+                        <td>ヨ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ya"></td>
+                        <td data-i18n="" class="blank"></td>
+                        <td data-i18n="yu"></td>
+                        <td data-i18n="" class="blank"></td>
+                        <td data-i18n="yo"></td>
+                    </tr>
+                    <tr>
+                        <td>ラ</td>
+                        <td>リ</td>
+                        <td>ル</td>
+                        <td>レ</td>
+                        <td>ロ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ra"></td>
+                        <td data-i18n="ri"></td>
+                        <td data-i18n="ru"></td>
+                        <td data-i18n="re"></td>
+                        <td data-i18n="ro"></td>
+                    </tr>
+                    <tr>
+                        <td>ワ</td>
+                        <td class="blank"></td>
+                        <td>ヲ</td>
+                        <td class="blank"></td>
+                        <td>ン</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="wa"></td>
+                        <td data-i18n="" class="blank"></td>
+                        <td data-i18n="wo"></td>
+                        <td data-i18n="" class="blank"></td>
+                        <td data-i18n="n"></td>
+                    </tr>
+                </th>
+            </table>
+            <h2 data-i18n="dakuon"></h2>
+            <table>
+                    <tr>
+                        <td>ガ</td>
+                        <td>ギ</td>
+                        <td>グ</td>
+                        <td>ゲ</td>
+                        <td>ゴ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ga"></td>
+                        <td data-i18n="gi"></td>
+                        <td data-i18n="gu"></td>
+                        <td data-i18n="ge"></td>
+                        <td data-i18n="go"></td>
+                    </tr>
+                    <tr>
+                        <td>ザ</td>
+                        <td>ジ</td>
+                        <td>ズ</td>
+                        <td>ゼ</td>
+                        <td>ゾ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="za"></td>
+                        <td data-i18n="ji"></td>
+                        <td data-i18n="zu"></td>
+                        <td data-i18n="ze"></td>
+                        <td data-i18n="zo"></td>
+                    </tr>
+                    <tr>
+                        <td>ダ</td>
+                        <td>ジ</td>
+                        <td>ズ</td>
+                        <td>デ</td>
+                        <td>ド</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="da"></td>
+                        <td data-i18n="ji"></td>
+                        <td data-i18n="zu"></td>
+                        <td data-i18n="de"></td>
+                        <td data-i18n="do"></td>
+                    </tr>
+                    <tr>
+                        <td>バ</td>
+                        <td>ビ</td>
+                        <td>ブ</td>
+                        <td>ベ</td>
+                        <td>ボ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="ba"></td>
+                        <td data-i18n="bi"></td>
+                        <td data-i18n="bu"></td>
+                        <td data-i18n="be"></td>
+                        <td data-i18n="bo"></td>
+                    </tr>
+                    <tr>
+                        <td>パ</td>
+                        <td>ピ</td>
+                        <td>プ</td>
+                        <td>ペ</td>
+                        <td>ポ</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="pa"></td>
+                        <td data-i18n="pi"></td>
+                        <td data-i18n="pu"></td>
+                        <td data-i18n="pe"></td>
+                        <td data-i18n="po"></td>
+                    </tr>
+            </table>
+        </section>
 
-    Katakana
-        <h2>SEION</h2>
         <table>
+            <tr>
+                <th class="testtitle" colspan="3">Katakana Tests</th>
+            </tr>
+            <tbody>
                 <tr>
-                    <td>ア a</td>
-                    <td>イ i</td>
-                    <td>ウ u</td>
-                    <td>エ e</td>
-                    <td>オ o</td>
+                    <td class="tablecellimage"><a href="#"><span>ア</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>Vowels Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>カ ka</td>
-                    <td>キ ki</td>
-                    <td>ク ku</td>
-                    <td>ケ ke</td>
-                    <td>コ ko</td>
+                    <td class="tablecellimage"><a href="#"><span>カ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>K Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>サ sa</td>
-                    <td>シ shi</td>
-                    <td>ス su</td>
-                    <td>セ se</td>
-                    <td>ソ so</td>
+                    <td class="tablecellimage"><a href="#"><span>サ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>S Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>タ ta</td>
-                    <td>チ chi</td>
-                    <td>ツ tsu</td>
-                    <td>テ te</td>
-                    <td>ト to</td>
+                    <td class="tablecellimage"><a href="#"><span>タ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>T Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>ナ na</td>
-                    <td>ニ ni</td>
-                    <td>ヌ nu</td>
-                    <td>ネ ne</td>
-                    <td>ノ no</td>
+                    <td class="tablecellimage"><a href="#"><span>ナ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>N Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>ハ ha</td>
-                    <td>ヒ hi</td>
-                    <td>フ fu</td>
-                    <td>ヘ he</td>
-                    <td>ホ ho</td>
+                    <td class="tablecellimage"><a href="#"><span>ハ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>H Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>マ ma</td>
-                    <td>ミ mi</td>
-                    <td>ム mu</td>
-                    <td>メ me</td>
-                    <td>モ mo</td>
+                    <td class="tablecellimage"><a href="#"><span>マ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>M Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>ヤ ya</td>
-                    <td></td>
-                    <td>ユ yu</td>
-                    <td></td>
-                    <td>ヨ yo</td>
+                    <td class="tablecellimage"><a href="#"><span>ラ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>R Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>ラ ra</td>
-                    <td>リ ri</td>
-                    <td>ル ru</td>
-                    <td>レ re</td>
-                    <td>ロ ro</td>
+                    <td class="tablecellimage"><a href="#"><span>ン</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>Special Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
                 <tr>
-                    <td>ワ wa</td>
-                    <td></td>
-                    <td>ヲ wo</td>
-                    <td></td>
-                    <td>ン n</td>
+                    <td class="tablecellimage"><a href="#"><span>ガ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>G Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
                 </tr>
-            </th>
+                <tr>
+                    <td class="tablecellimage"><a href="#"><span>ザ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>Z Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                </tr>
+                <tr>
+                    <td class="tablecellimage"><a href="#"><span>ダ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>D Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                </tr>
+                <tr>
+                    <td class="tablecellimage"><a href="#"><span>バ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>B Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                </tr>
+                <tr>
+                    <td class="tablecellimage"><a href="#"><span>パ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>P Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                </tr>
+                <tr>
+                    <td class="tablecellimage"><a href="#"><span>ヤ</span></a></td>
+                    <td class="tablecelltitle"><a href="#"><span>All Characters Quiz</span></a></td>
+                    <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                </tr>
+            </tbody>
         </table>
-        <h2>DAKUON</h2>
-        <table>
-                <tr>
-                    <td>ガ ga</td>
-                    <td>ギ gi</td>
-                    <td>グ gu</td>
-                    <td>ゲ ge</td>
-                    <td>ゴ go</td>
-                </tr>
-                <tr>
-                    <td>ザ za</td>
-                    <td>ジ ji</td>
-                    <td>ズ zu</td>
-                    <td>ゼ ze</td>
-                    <td>ゾ zo</td>
-                </tr>
-                <tr>
-                    <td>ダ da</td>
-                    <td>ジ ji</td>
-                    <td>ズ zu</td>
-                    <td>デ de</td>
-                    <td>ド do</td>
-                </tr>
-                <tr>
-                    <td>バ ba</td>
-                    <td>ビ bi</td>
-                    <td>ブ bu</td>
-                    <td>ベ be</td>
-                    <td>ボ bo</td>
-                </tr>
-                <tr>
-                    <td>パ pa</td>
-                    <td>ピ pi</td>
-                    <td>プ pu</td>
-                    <td>ペ pe</td>
-                    <td>ポ po</td>
-                </tr>
-        </table>
-    </section>
-    <p><a href="katakanatest.html" class="btn">Take a test</a></p>
-    <footer>
-        <ul class="socialicons">
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-            </li>
-        </ul>
-    </footer>
     </main>
-    <script src="assets/js/burgermenu_script.js"></script>
-</body>
+        <footer>
+            <ul class="socialicons">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="assets/js/burgermenu_script.js"></script>
+        <script src="assets/js/language_script.js"></script>
+    </body>
 </html>
