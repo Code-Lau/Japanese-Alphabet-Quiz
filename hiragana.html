@@ -1,198 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title data-i18n="title_home"></title>
-</head>
-<body>
-    <header>
-        <a href="index.html" class="logo">LOGO</a>
-        <div class="nav-menu" id="mynav-menu">
-            <div class="dropdown">
-                <ul>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="#">Dummy link</a></li>
-                    <li><a class="dropbtn"><span>Site language</span><i class="fa fa-caret-down"></i></a></li>
-                </ul>
-                <div class="dropdown-content">
-                    <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title data-i18n="title_home"></title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">LOGO</a>
+            <div class="nav-menu" id="mynav-menu">
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="#">Dummy link</a></li>
+                        <li><a class="dropbtn"><span>Site language</span><i class="fa fa-caret-down"></i></a></li>
+                    </ul>
+                    <div class="dropdown-content">
+                        <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+                        <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
+                        <li><a href="index.html" onclick="changeLanguage('es')">Español</a></li>
+                        <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
+                        <li><a href="index.html" onclick="changeLanguage('pt')">Português</a></li>
+                        <li><a href="index.html" onclick="changeLanguage('zh')">中文</a></li>
+                        <li><a href="index.html" onclick="changeLanguage('ru')">русский</a></li>
+                    </div>
                 </div>
             </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </header>
+        <div class="headershadow">
+            <br>
         </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </header>
-    <div class="headershadow">
-        <br>
-    </div>
-    
-    <section class="container">
-        <p data-i18n="hiragana_intro"></p>
-        <p data-i18n="hiragana-intro_p2"></p>
-        <h2 data-i18n="seion"></h2>
-        <table>
-                <tr>
-                    <td data-i18n="a"></td>
-                    <td data-i18n="i"></td>
-                    <td data-i18n="u"></td>
-                    <td data-i18n="e"></td>
-                    <td data-i18n="o"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ka"></td>
-                    <td data-i18n="ki"></td>
-                    <td data-i18n="ku"></td>
-                    <td data-i18n="ke"></td>
-                    <td data-i18n="ko"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="sa"></td>
-                    <td data-i18n="shi"></td>
-                    <td data-i18n="su"></td>
-                    <td data-i18n="se"></td>
-                    <td data-i18n="so"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ta"></td>
-                    <td data-i18n="chi"></td>
-                    <td data-i18n="tsu"></td>
-                    <td data-i18n="te"></td>
-                    <td data-i18n="to"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="na"></td>
-                    <td data-i18n="ni"></td>
-                    <td data-i18n="nu"></td>
-                    <td data-i18n="ne"></td>
-                    <td data-i18n="no"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ha"></td>
-                    <td data-i18n="hi"></td>
-                    <td data-i18n="fu"></td>
-                    <td data-i18n="he"></td>
-                    <td data-i18n="ho"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ma"></td>
-                    <td data-i18n="mi"></td>
-                    <td data-i18n="mu"></td>
-                    <td data-i18n="me"></td>
-                    <td data-i18n="mo"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ya"></td>
-                    <td data-i18n=""></td>
-                    <td data-i18n="yu"></td>
-                    <td data-i18n=""></td>
-                    <td data-i18n="yo"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ra"></td>
-                    <td data-i18n="ri"></td>
-                    <td data-i18n="ru"></td>
-                    <td data-i18n="re"></td>
-                    <td data-i18n="ro"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="wa"></td>
-                    <td data-i18n=""></td>
-                    <td data-i18n="wo"></td>
-                    <td data-i18n=""></td>
-                    <td data-i18n="n"></td>
-                </tr>
-            </th>
-        </table>
-        <h2 data-i18n="dakuon"></h2>
-        <table>
-            <tr>
-                    <td data-i18n="ga"></td>
-                    <td data-i18n="gi"></td>
-                    <td data-i18n="gu"></td>
-                    <td data-i18n="ge"></td>
-                    <td data-i18n="go"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="za"></td>
-                    <td data-i18n="ji"></td>
-                    <td data-i18n="zu"></td>
-                    <td data-i18n="ze"></td>
-                    <td data-i18n="zo"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="da"></td>
-                    <td data-i18n="ji"></td>
-                    <td data-i18n="zu"></td>
-                    <td data-i18n="de"></td>
-                    <td data-i18n="do"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="ba"></td>
-                    <td data-i18n="bi"></td>
-                    <td data-i18n="bu"></td>
-                    <td data-i18n="be"></td>
-                    <td data-i18n="bo"></td>
-                </tr>
-                <tr>
-                    <td data-i18n="pa"></td>
-                    <td data-i18n="pi"></td>
-                    <td data-i18n="pu"></td>
-                    <td data-i18n="pe"></td>
-                    <td data-i18n="po"></td>
-                </tr>
-        </table>
-    </section>
-    <p><a href="hiraganatest.html" class="btn" data-i18n="test"></a></p>
+        <main>
+            <section class="container">
+                <p data-i18n="hiragana_intro"></p>
+                <p data-i18n="hiragana-intro_p2"></p>
+                <h2 data-i18n="seion"></h2>
+                <table>
+                        <tr>
+                            <td>あ</td>
+                            <td>い</td>
+                            <td>う</td>
+                            <td>え</td>
+                            <td>お</td>
+                        </tr>
+                        <tr>                   
+                            <td data-i18n="a"></td>
+                            <td data-i18n="i"></td>
+                            <td data-i18n="u"></td>
+                            <td data-i18n="e"></td>
+                            <td data-i18n="o"></td>
+                        </tr>
+                        <tr>
+                            <td>か</td>
+                            <td>き</td>
+                            <td>く</td>
+                            <td>け</td>
+                            <td>こ</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="ka"></td>
+                            <td data-i18n="ki"></td>
+                            <td data-i18n="ku"></td>
+                            <td data-i18n="ke"></td>
+                            <td data-i18n="ko"></td>
+                        </tr>
+                        <tr>
+                            <td>さ</td>
+                            <td>し</td>
+                            <td>す</td>
+                            <td>せ</td>
+                            <td>そ</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="sa"></td>
+                            <td data-i18n="shi"></td>
+                            <td data-i18n="su"></td>
+                            <td data-i18n="se"></td>
+                            <td data-i18n="so"></td>
+                        </tr>
+                        <tr>
+                            <td>た</td>
+                            <td>ち</td>
+                            <td>つ</td>
+                            <td>て</td>
+                            <td>と</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="ta"></td>
+                            <td data-i18n="chi"></td>
+                            <td data-i18n="tsu"></td>
+                            <td data-i18n="te"></td>
+                            <td data-i18n="to"></td>
+                        </tr>
+                        <tr>
+                            <td>な</td>
+                            <td>に</td>
+                            <td>ぬ</td>
+                            <td>ね</td>
+                            <td>の</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="na"></td>
+                            <td data-i18n="ni"></td>
+                            <td data-i18n="nu"></td>
+                            <td data-i18n="ne"></td>
+                            <td data-i18n="no"></td>
+                        </tr>
+                        <tr>
+                            <td>は</td>
+                            <td>ひ</td>
+                            <td>ふ</td>
+                            <td>へ</td>
+                            <td>ほ</td>
+                        </tr>        
+                        <tr>
+                            <td data-i18n="ha"></td>
+                            <td data-i18n="hi"></td>
+                            <td data-i18n="fu"></td>
+                            <td data-i18n="he"></td>
+                            <td data-i18n="ho"></td>
+                        </tr>
+                        <tr>
+                            <td>ま</td>
+                            <td>み</td>
+                            <td>む</td>
+                            <td>め</td>
+                            <td>も</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="ma"></td>
+                            <td data-i18n="mi"></td>
+                            <td data-i18n="mu"></td>
+                            <td data-i18n="me"></td>
+                            <td data-i18n="mo"></td>
+                        </tr>
+                        <tr>
+                            <td>や</td>
+                            <td class="blank"></td>
+                            <td>ゆ</td>
+                            <td class="blank"></td>
+                            <td>よ</td>
+                        </tr>        
+                        <tr>
+                            <td data-i18n="ya"></td>
+                            <td data-i18n="" class="blank"></td>
+                            <td data-i18n="yu"></td>
+                            <td data-i18n="" class="blank"></td>
+                            <td data-i18n="yo"></td>
+                        </tr>
+                        <tr>
+                            <td>ら</td>
+                            <td>り</td>
+                            <td>る</td>
+                            <td>れ</td>
+                            <td>ろ</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="ra"></td>
+                            <td data-i18n="ri"></td>
+                            <td data-i18n="ru"></td>
+                            <td data-i18n="re"></td>
+                            <td data-i18n="ro"></td>
+                        </tr>
+                        <tr>
+                            <td>わ</td>
+                            <td class="blank"></td>
+                            <td>を</td>
+                            <td class="blank"></td>
+                            <td>ん</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="wa"></td>
+                            <td data-i18n="" class="blank"></td>
+                            <td data-i18n="wo"></td>
+                            <td data-i18n="" class="blank"></td>
+                            <td data-i18n="n"></td>
+                        </tr>
+                    </th>
+                </table>
+                <h2 data-i18n="dakuon"></h2>
+                <table>
+                        <tr>
+                            <td>が</td>
+                            <td>ぎ</td>
+                            <td>ぐ</td>
+                            <td>げ</td>
+                            <td>ご</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="ga"></td>
+                            <td data-i18n="gi"></td>
+                            <td data-i18n="gu"></td>
+                            <td data-i18n="ge"></td>
+                            <td data-i18n="go"></td>
+                        </tr>
+                        <tr>
+                            <td>ざ</td>
+                            <td>じ</td>
+                            <td>ず</td>
+                            <td>ぜ</td>
+                            <td>ぞ</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="za"></td>
+                            <td data-i18n="ji"></td>
+                            <td data-i18n="zu"></td>
+                            <td data-i18n="ze"></td>
+                            <td data-i18n="zo"></td>
+                        </tr>
+                        <tr>
+                            <td>だ</td>
+                            <td>ぢ</td>
+                            <td>づ</td>
+                            <td>で</td>
+                            <td>ど</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="da"></td>
+                            <td data-i18n="ji"></td>
+                            <td data-i18n="zu"></td>
+                            <td data-i18n="de"></td>
+                            <td data-i18n="do"></td>
+                        </tr>
+                        <tr>
+                            <td>ば</td>
+                            <td>び</td>
+                            <td>ぶ</td>
+                            <td>べ</td>
+                            <td>ぼ</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="ba"></td>
+                            <td data-i18n="bi"></td>
+                            <td data-i18n="bu"></td>
+                            <td data-i18n="be"></td>
+                            <td data-i18n="bo"></td>
+                        </tr>
+                        <tr>
+                            <td>ぱ</td>
+                            <td>ぴ</td>
+                            <td>ぷ</td>
+                            <td>ぺ</td>
+                            <td>ぽ</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="pa"></td>
+                            <td data-i18n="pi"></td>
+                            <td data-i18n="pu"></td>
+                            <td data-i18n="pe"></td>
+                            <td data-i18n="po"></td>
+                        </tr>
+                </table>
+            </section>
 
-    <table>
-        <thead></thead>
-        <tbody>
-            <tr>
-                <td class="table cell image"> <a class="table image" href="#"></a></td>
-                <td class="table cell title"> <a href="#"><span>title</span></a></td>
-                <td class="table cell button"><a href="#"><span class="playbutton">Play</span></a></td>
-            </tr>
-        </tbody>
-    </table>
-
-
-
-
-
-
-    <footer>
-        <ul class="socialicons">
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-            </li>
-        </ul>
-    </footer>
-    </main>
-    <script src="assets/js/burger.js"></script>
-</body>
+            <table>
+                <thead><h2>TESTS</h2></thead>
+                <tbody>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>あ</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>Vowels Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>か</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>K Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>さ</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>S Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>た</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>T Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>な</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>N Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>は</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>H Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>ま</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>M Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>ら</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>R Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>ん</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>Special Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>が</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>G Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>ざ</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>Z Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>だ</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>D Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>ば</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>B Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>ぱ</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>P Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="tablecellimage"><a href="#"><span>あ</span></a></td>
+                        <td class="tablecelltitle"><a href="#"><span>All Characters Quiz</span></a></td>
+                        <td class="tablecellbutton"><a href="#"><span class="playbutton">Play</span></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <ul class="socialicons">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="assets/js/burgermenu_script.js"></script>
+        <script src="assets/js/language_script.js"></script>
+    </body>
 </html>
