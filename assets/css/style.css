@@ -82,13 +82,19 @@ header {
     transform: translateY(-10px) rotate(-45deg);
 }
 
+.dropdown ul {
+    display: list-item;
+    list-style:circle;
+    list-style-position: outside;
+}
+
 .nav-menu {
     display: flex;
     position: fixed;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    top: -100px;
+    top: -200px;
     left: 0;
     width: 100%;
     z-index: 3;
@@ -164,7 +170,7 @@ i {
 }
 
 /* Body */
-h2, p {
+.container h2, .container p {
     color:#5F64D4;
 }
 
@@ -175,7 +181,7 @@ h2, p {
     text-align: center;
     align-items:normal;
     gap:10px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 section.menucontainer a {
