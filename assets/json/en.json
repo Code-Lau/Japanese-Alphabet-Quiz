@@ -6,6 +6,8 @@
     "footer_text": "© 2024 All rights reserved.",
     "hiragana_intro": "Hiragana is one of the three types of Japanese syllabary, alongside Katakana and Kanji. Hiragana and Katakana are referred to as phonetic lettering systems and \"kana\" systems. Each character, excluding the vowels themselves, represents a consonant followed by a vowel. The characters of the kana do not represent single consonants, so that makes it a syllabic symbol system rather than alphabetic letters. There is only one exception, being ん.",
     "hiragana-intro_p2":"Hiragana has 48 characters: 5 of which are vowels and the remaining 42 are consonant-vowel unions. Only one is a singular consonant, the aformentioned ん(n). Following the addition of a dakuten, a voiceless consonant is turned into a voice one. For example, か (ka) turns into が (ga).",
+    "katakana_intro":"Katakana is one of the three types of Japanese syllabary, alongside Hiragana and Kanji. Katakana and Hiragana are referred to as phonetic lettering systems and kana systems. Each character, excluding the vowels themselves, represents a consonant followed by a vowel. The characters of the kana do not represent single consonants, so that makes it a syllabic symbol system rather than alphabetic letters. There is only one exception, being ン",
+    "katakana_intro_p2":"Katakana has 48 characters: 5 of which are vowels and the remaining 42 are consonant-vowel unions. Only one is a singular consonant, the aformentioned ン(n). Following the additionof a dakuten, a voiceless consonant is turned into a voice one. For example, カ (ka) turns into ガ (ga).",
     "test":"Test yourself",
     "hiragana":"Hiragana あ",
     "katakana":"Katakana ア",
