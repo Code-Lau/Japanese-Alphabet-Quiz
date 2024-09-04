@@ -7,12 +7,6 @@
 #8AF3FF button
 #72C2CB button shade */
 
-.m-plus-rounded-1c-regular {
-    font-family: "M PLUS Rounded 1c", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 * {
     text-decoration: none;
     list-style: none;
@@ -22,6 +16,12 @@
     padding:0;
 }
 
+.m-plus-rounded-1c-regular {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 html, body {
     height: 100%;
 }
@@ -30,6 +30,8 @@ body>footer {
     position: sticky;
     top: 100vh;
 }
+
+/* Header */
 header {
     width: 100%;
     display: flex;
@@ -37,6 +39,7 @@ header {
     position: relative;
     background-color: #6970FD;
 }
+
 .logo {
     font-size: 55px;
     cursor: pointer;
@@ -112,19 +115,11 @@ header {
     transition: all .55s ease;
     background-color: #5F64D4;
 }
-/* .dropdown {
-    font-size: 36px;
-    
-    
-    justify-content: left;
-    
-} */
 
 .dropdown, .dropbtn {
     margin: 0;
     border: none;
     outline: none;
-    color: red;
     background-color: inherit;
     font-family: inherit;
     overflow: hidden;
@@ -157,6 +152,22 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+i {
+    padding-left:5px;
+}
+
+.headertext {
+    background-color:#6970FD;
+    text-align: center;
+    padding:10px;
+}
+
+/* Body */
+h2, p {
+    color:#5F64D4;
+}
+
 .menucontainer {
     margin: 2em 5em 2em 4em;
     display: flex;
@@ -183,28 +194,84 @@ section.menucontainer a {
 section.menucontainer a span {
     color:#5F64D4;
 }
-.headertext {
-    background-color:#6970FD;
-    text-align: center;
-    padding:10px;
-}
-.container {
+
+section.container {
+    margin:1em;
     color:#5F64D4;
-    background-color: green;
+    background-color: #fff;
 }
+
+section.container h2 {
+    margin-top:1em;
+}
+
 table {
-    color:#5F64D4;
-    background-color: red;
+    margin-top:1em;
 }
+
+
+
+tr, td {
+    border: 5px solid #72C2CB;
+    padding:5px;
+}
+
+th, tr {
+    background-color: #8AF3FF;
+}
+
+thead {
+    background-color: #fff;
+}
+
 th, tr, td {
     font-family: "M PLUS Rounded 1c";
     color:#5F64D4;
-    font-size:32px;
+    font-size:28px;
     font-weight:bold;
+    border-radius: 10px;
 }
-section.container h2, section.container p {
-    color: #6970FD;
+
+.blank {
+    background-color: #fff;
+    border:none;
 }
+
+.tablecellimage {
+    background-color: #8AF3FF;
+    padding:10px;
+    font-size:40px;
+}
+
+table tbody tr td span:not(.playbutton) {
+    color:#5F64D4;
+}
+
+.tablecelltitle {
+    background-color: #8AF3FF;
+    padding:10px;
+}
+
+.tablecellbutton {
+    background-color: green;
+    border-radius: 10px;
+    border:none;
+}
+
+.tableimage {
+    width:100%;
+}
+
+.playbutton {
+    padding:10px;
+}
+
+.tablecellbutton:hover {
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+/* Footer */
 footer {
     background-color: #6970FD;
     font-size: 36px;
