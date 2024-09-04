@@ -5,6 +5,10 @@
     "footer_text": "© 2024 Tous droits réservés.",
     "hiragana_intro": "L'hiragana est l'un des trois types de syllabaire japonais, avec le katakana et le kanji. Les Hiragana et les Katakana sont appelés systèmes de lettres phonétiques et systèmes kana. Chaque caractère, à l'exception des voyelles elles-mêmes, représente une consonne suivie d'une voyelle. Les caractères des kana ne représentent pas des consonnes individuelles, ce qui en fait un système de symboles syllabiques plutôt que des lettres alphabétiques. Il n'y a qu'une seule exception, à savoir ん. Traduit avec DeepL.com (version gratuite)",
     "hiragana-intro_p2":"Le Hiragana comporte 48 caractères : 5 d'entre eux sont des voyelles et les 42 autres sont des unions consonne-voyelle. Un seul est une consonne singulière, le ん(n) mentionné ci-dessus. Suite à l'ajout d'un dakuten, une consonne aphone est transformée en consonne vocale. Par exemple, か (ka) se transforme en が (ga).",
+    "katakana_intro":"Le katakana est l'un des trois types de syllabaire japonais, avec le hiragana et le kanji. Les Katakana et les Hiragana sont appelés systèmes de lettres phonétiques et systèmes de kana. Chaque caractère, à l'exception des voyelles, représente une consonne suivie d'une voyelle. Les caractères du kana ne représentent pas des consonnes simples, ce qui en fait un système de symboles syllabiques plutôt que des lettres alphabétiques. Il n'y a qu'une seule exception, à savoir ン",
+    "katakana_intro_p2":"Le katakana compte 48 caractères : 5 d'entre eux sont des voyelles et les 42 autres sont des unions consonne-voyelle. Un seul est une consonne singulière, le ン(n) susmentionné. Après l'ajout d'un dakuten, une consonne aphone est transformée en consonne vocale. Par exemple, カ (ka) devient ガ (ga).",
+    "kanji_intro":"Les kanji sont les caractères logographiques adaptés de l'écriture chinoise utilisés en japonais. Il existe près de 3 000 kanji utilisés dans les noms japonais et dans la communication courante. Chaque kanji peut être utilisé pour écrire un mot ou un morphème, ce qui donne lieu à différentes prononciations ou lectures. La lecture correcte est déterminée par des indices contextuels, le sens exact du mot et sa position dans la phrase.",
+    "kanji_intro_p2":"Si de nombreux kanji n'ont qu'une ou deux significations, les kanji les plus courants peuvent en avoir jusqu'à dix. Cela peut sembler décourageant, mais la signification sera généralement claire pour vous compte tenu du contexte de la conversation.",
     "test":"Testez-vous",
     "hiragana":"Hiragana あ",
     "katakana":"Katakana ア",
@@ -84,5 +88,16 @@
     "pi":"pi",
     "pu":"pu",
     "pe":"pe",
-    "po":"po"
+    "po":"po",
+    "numbers":"Nombre",
+    "one":"Ichi",
+    "two":"Ni",
+    "three":"San",
+    "four":"Shi/Yon",
+    "five":"Go",
+    "six":"Roku",
+    "seven":"Shichi/Nana",
+    "eight":"Hachi",
+    "nine":"Kyu",
+    "ten":"Juu"
 }
