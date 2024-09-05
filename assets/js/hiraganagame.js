@@ -8,7 +8,6 @@ const progressText = document.getElementById("progressText")
 const scoreText = document.getElementById("score")
 const progressBarFull = document.getElementById("progressBarFull")
 
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -331,6 +330,20 @@ const pLetters = [
 ];
 
 let vowelsShuffled = vowels.sort(() => Math.random() - 0.5);
+let kLettersShuffled = kLetters.sort(() => Math.random() - 0.5);
+let sLettersShuffled = sLetters.sort(() => Math.random() - 0.5);
+let tLettersShuffled = tLetters.sort(() => Math.random() - 0.5);
+let nLettersShuffled = nLetters.sort(() => Math.random() - 0.5);
+let hLettersShuffled = hLetters.sort(() => Math.random() - 0.5);
+let mLettersShuffled = mLetters.sort(() => Math.random() - 0.5);
+let rLettersShuffled = rLetters.sort(() => Math.random() - 0.5);
+let yLettersShuffled = yLetters.sort(() => Math.random() - 0.5);
+let wLettersShuffled = wLetters.sort(() => Math.random() - 0.5);
+let gLettersShuffled = gLetters.sort(() => Math.random() - 0.5);
+let zLettersShuffled = zLetters.sort(() => Math.random() - 0.5);
+let dLettersShuffled = dLetters.sort(() => Math.random() - 0.5);
+let bLettersShuffled = bLetters.sort(() => Math.random() - 0.5);
+let pLettersShuffled = pLetters.sort(() => Math.random() - 0.5);
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
