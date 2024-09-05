@@ -1,6 +1,6 @@
 /* jshint esversion: 11 */
 
-const vowelsh = [
+const vowelsH = [
     {
         jp: "あ",
         en: "A",
@@ -22,7 +22,7 @@ const vowelsh = [
         en: "O"
     }
 ];
-const kLettersh = [
+const kLettersH = [
     {
         jp: "か",
         en: "KA"
@@ -44,7 +44,7 @@ const kLettersh = [
         en: "KO"
     }
 ];
-const sLettersh = [
+const sLettersH = [
     {
         jp: "さ",
         en: "SA"
@@ -66,7 +66,7 @@ const sLettersh = [
         en: "SO"
     }
 ];
-const tLettersh = [
+const tLettersH = [
     {
         jp: "た",
         en: "TA"
@@ -88,7 +88,7 @@ const tLettersh = [
         en: "TO"
     }
 ];
-const nLettersh = [
+const nLettersH = [
     {
         jp: "な",
         en: "NA"
@@ -110,7 +110,7 @@ const nLettersh = [
         en: "NO"
     }
 ];
-const hLettersh = [
+const hLettersH = [
     {
         jp: "は",
         en: "HA"
@@ -132,7 +132,7 @@ const hLettersh = [
         en: "HO"
     }
 ];
-const mLettersh = [
+const mLettersH = [
     {
         jp: "ま",
         en: "MA"
@@ -154,7 +154,7 @@ const mLettersh = [
         en: "MO"
     }
 ];
-const rLettersh = [
+const rLettersH = [
     {
         jp: "ら",
         en: "RA"
@@ -176,7 +176,7 @@ const rLettersh = [
         en: "RO"
     }
 ];
-const yLettersh = [
+const yLettersH = [
     {
         jp: "や",
         en: "YA"
@@ -190,7 +190,7 @@ const yLettersh = [
         en: "YO"
     }
 ];
-const wLettersh = [
+const wLettersH = [
     {
         jp: "わ",
         en: "WA"
@@ -204,7 +204,7 @@ const wLettersh = [
         en: "N"
     }
 ];
-const gLettersh = [
+const gLettersH = [
     {
         jp: "が",
         en: "KA"
@@ -226,7 +226,7 @@ const gLettersh = [
         en: "KO"
     }
 ];
-const zLettersh = [
+const zLettersH = [
     {
         jp: "ざ",
         en: "ZA"
@@ -248,7 +248,7 @@ const zLettersh = [
         en: "ZO"
     }
 ];
-const dLettersh = [
+const dLettersH = [
     {
         jp: "だ",
         en: "DA"
@@ -270,7 +270,7 @@ const dLettersh = [
         en: "DO"
     }
 ];
-const bLettersh = [
+const bLettersH = [
     {
         jp: "ば",
         en: "BA"
@@ -292,7 +292,7 @@ const bLettersh = [
         en: "BO"
     }
 ];
-const pLettersh = [
+const pLettersH = [
     {
         jp: "ぱ",
         en: "PA"
@@ -314,7 +314,7 @@ const pLettersh = [
         en: "PO"
     }
 ];
-const vowelsk = [
+const vowelsK = [
     {
         jp: "ア",
         en: "A",
@@ -336,7 +336,7 @@ const vowelsk = [
         en: "O"
     }
 ];
-const kLettersk = [
+const kLettersK = [
     {
         jp: "カ",
         en: "KA"
@@ -358,7 +358,7 @@ const kLettersk = [
         en: "KO"
     }
 ];
-const sLettersk = [
+const sLettersK = [
     {
         jp: "サ",
         en: "SA"
@@ -380,7 +380,7 @@ const sLettersk = [
         en: "SO"
     }
 ];
-const tLettersk = [
+const tLettersK = [
     {
         jp: "タ",
         en: "TA"
@@ -402,7 +402,7 @@ const tLettersk = [
         en: "TO"
     }
 ];
-const nLettersk = [
+const nLettersK = [
     {
         jp: "ナ",
         en: "NA"
@@ -424,7 +424,7 @@ const nLettersk = [
         en: "NO"
     }
 ];
-const hLettersk = [
+const hLettersK = [
     {
         jp: "ハ",
         en: "HA"
@@ -446,7 +446,7 @@ const hLettersk = [
         en: "HO"
     }
 ];
-const mLettersk = [
+const mLettersK = [
     {
         jp: "マ",
         en: "MA"
@@ -468,7 +468,7 @@ const mLettersk = [
         en: "MO"
     }
 ];
-const rLettersk = [
+const rLettersK = [
     {
         jp: "ラ",
         en: "RA"
@@ -490,7 +490,7 @@ const rLettersk = [
         en: "RO"
     }
 ];
-const yLettersk = [
+const yLettersK = [
     {
         jp: "ヤ",
         en: "YA"
@@ -504,7 +504,7 @@ const yLettersk = [
         en: "YO"
     }
 ];
-const wLettersk = [
+const wLettersK = [
     {
         jp: "ワ",
         en: "WA"
@@ -518,7 +518,7 @@ const wLettersk = [
         en: "N"
     }
 ];
-const gLettersk = [
+const gLettersK = [
     {
         jp: "ガ",
         en: "GA"
@@ -540,7 +540,7 @@ const gLettersk = [
         en: "GO"
     }
 ];
-const zLettersk = [
+const zLettersK = [
     {
         jp: "ザ",
         en: "ZA"
@@ -562,7 +562,7 @@ const zLettersk = [
         en: "ZO"
     }
 ];
-const dLettersk = [
+const dLettersK = [
     {
         jp: "ダ",
         en: "DA"
@@ -584,7 +584,7 @@ const dLettersk = [
         en: "DO"
     }
 ];
-const bLettersk = [
+const bLettersK = [
     {
         jp: "バ",
         en: "BA"
@@ -606,7 +606,7 @@ const bLettersk = [
         en: "BO"
     }
 ];
-const pLettersk = [
+const pLettersK = [
     {
         jp: "パ",
         en: "PA"
@@ -629,42 +629,42 @@ const pLettersk = [
     }
 ];
 
-let vowelshShuffled = vowels.sort(() => Math.random() - 0.5);
-let kLettershShuffled = kLetters.sort(() => Math.random() - 0.5);
-let sLettershShuffled = sLetters.sort(() => Math.random() - 0.5);
-let tLettershShuffled = tLetters.sort(() => Math.random() - 0.5);
-let nLettershShuffled = nLetters.sort(() => Math.random() - 0.5);
-let hLettershShuffled = hLetters.sort(() => Math.random() - 0.5);
-let mLettershShuffled = mLetters.sort(() => Math.random() - 0.5);
-let rLettershShuffled = rLetters.sort(() => Math.random() - 0.5);
-let yLettershShuffled = yLetters.sort(() => Math.random() - 0.5);
-let wLettershShuffled = wLetters.sort(() => Math.random() - 0.5);
-let gLettershShuffled = gLetters.sort(() => Math.random() - 0.5);
-let zLettershShuffled = zLetters.sort(() => Math.random() - 0.5);
-let dLettershShuffled = dLetters.sort(() => Math.random() - 0.5);
-let bLettershShuffled = bLetters.sort(() => Math.random() - 0.5);
-let pLettershShuffled = pLetters.sort(() => Math.random() - 0.5);
+let vowelsHShuffled = vowelsH.sort(() => Math.random() - 0.5);
+let kLettersHShuffled = kLettersH.sort(() => Math.random() - 0.5);
+let sLettersHShuffled = sLettersH.sort(() => Math.random() - 0.5);
+let tLettersHShuffled = tLettersH.sort(() => Math.random() - 0.5);
+let nLettersHShuffled = nLettersH.sort(() => Math.random() - 0.5);
+let hLettersHShuffled = hLettersH.sort(() => Math.random() - 0.5);
+let mLettersHShuffled = mLettersH.sort(() => Math.random() - 0.5);
+let rLettersHShuffled = rLettersH.sort(() => Math.random() - 0.5);
+let yLettersHShuffled = yLettersH.sort(() => Math.random() - 0.5);
+let wLettersHShuffled = wLettersH.sort(() => Math.random() - 0.5);
+let gLettersHShuffled = gLettersH.sort(() => Math.random() - 0.5);
+let zLettersHShuffled = zLettersH.sort(() => Math.random() - 0.5);
+let dLettersHShuffled = dLettersH.sort(() => Math.random() - 0.5);
+let bLettersHShuffled = bLettersH.sort(() => Math.random() - 0.5);
+let pLettersHShuffled = pLettersH.sort(() => Math.random() - 0.5);
 
 let vowelskShuffled = vowels.sort(() => Math.random() - 0.5);
-let kLetterskShuffled = kLetters.sort(() => Math.random() - 0.5);
-let sLetterskShuffled = sLetters.sort(() => Math.random() - 0.5);
-let tLetterskShuffled = tLetters.sort(() => Math.random() - 0.5);
-let nLetterskShuffled = nLetters.sort(() => Math.random() - 0.5);
-let hLetterskShuffled = hLetters.sort(() => Math.random() - 0.5);
-let mLetterskShuffled = mLetters.sort(() => Math.random() - 0.5);
-let rLetterskShuffled = rLetters.sort(() => Math.random() - 0.5);
-let yLetterskShuffled = yLetters.sort(() => Math.random() - 0.5);
-let wLetterskShuffled = wLetters.sort(() => Math.random() - 0.5);
-let gLetterskShuffled = gLetters.sort(() => Math.random() - 0.5);
-let zLetterskShuffled = zLetters.sort(() => Math.random() - 0.5);
-let dLetterskShuffled = dLetters.sort(() => Math.random() - 0.5);
-let bLetterskShuffled = bLetters.sort(() => Math.random() - 0.5);
-let pLetterskShuffled = pLetters.sort(() => Math.random() - 0.5);
+let kLettersKShuffled = kLettersK.sort(() => Math.random() - 0.5);
+let sLettersKShuffled = sLettersK.sort(() => Math.random() - 0.5);
+let tLettersKShuffled = tLettersK.sort(() => Math.random() - 0.5);
+let nLettersKShuffled = nLettersK.sort(() => Math.random() - 0.5);
+let hLettersKShuffled = hLettersK.sort(() => Math.random() - 0.5);
+let mLettersKShuffled = mLettersK.sort(() => Math.random() - 0.5);
+let rLettersKShuffled = rLettersK.sort(() => Math.random() - 0.5);
+let yLettersKShuffled = yLettersK.sort(() => Math.random() - 0.5);
+let wLettersKShuffled = wLettersK.sort(() => Math.random() - 0.5);
+let gLettersKShuffled = gLettersK.sort(() => Math.random() - 0.5);
+let zLettersKShuffled = zLettersK.sort(() => Math.random() - 0.5);
+let dLettersKShuffled = dLettersK.sort(() => Math.random() - 0.5);
+let bLettersKShuffled = bLettersK.sort(() => Math.random() - 0.5);
+let pLettersKShuffled = pLettersK.sort(() => Math.random() - 0.5);
 
-let allLettersHK = [
-    ...vowelsh,
-    ...kLettersh,
-    ...sLettersh,
+let allLetters = [
+    ...vowelsH,
+    ...kLettersH,
+    ...sLettersH,
     ...tLettersh,
     ...nLettersh,
     ...hLettersh,

@@ -348,4 +348,5 @@ let allHLetters = [
     ...bLetters,
     ...pLetters
 ];
+
 let allHLettersShuffled = allHLetters.sort(() => Math.random() - 0.5);

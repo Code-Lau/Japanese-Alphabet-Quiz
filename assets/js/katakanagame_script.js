@@ -15,7 +15,7 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 5;
+let MAX_QUESTIONS = 5;
 
 const urlParams = new URLSearchParams(window.location.search);
 const quizParam = urlParams.get("quiz");
@@ -23,8 +23,8 @@ const quizParam = urlParams.get("quiz");
 let selectedQuiz;
 
 switch(quizParam) {
-    case "vowels":
-        selectedQuiz = vowelsShuffled;
+    case "vowelsk":
+        selectedQuiz = vowelskShuffled;
         break;
     case "k":
         selectedQuiz = kLettersShuffled;
@@ -69,7 +69,7 @@ switch(quizParam) {
         selectedQuiz = allKLettersShuffled;
         break;
     default:
-        selectedQuiz = vowelsShuffled;
+        selectedQuiz = "vowelsShuffled";
 }
 
 startGame = () => {
@@ -81,7 +81,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (selectedQuiz.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        return window.location.assign('quizend.html.html');
+        return window.location.assign('quizend.html');
     }
     questionCounter++;
     /* Progress Bar: https://www.youtube.com/watch?v=4bctmtuZVcM&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=7 */
