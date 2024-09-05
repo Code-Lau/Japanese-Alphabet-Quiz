@@ -1,5 +1,7 @@
 {
     "title_home":"Hauptseite",
+    "title_test":"Klassenarbeit",
+    "title_end":"Klassenarbeit abgeschlossen",
     "welcome_message": "Willkommen zurück,",
     "welcome_message_p2":"Lasst uns anfangen zu üben!",
     "footer_text": "© 2024 Alle Rechte vorbehalten.",
@@ -75,8 +77,8 @@
     "ze":"ze",
     "zo":"zo",
     "da":"da",
-    "dji":"dji",
-    "dzu":"dzu",
+    "ji":"ji",
+    "zu":"zu",
     "de":"de",
     "do":"do",
     "ba":"ba",
