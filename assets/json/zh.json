@@ -1,5 +1,7 @@
 {
     "title_home":"主页",
+    "title_test":"试验",
+    "title_end":"试验 完成",
     "welcome_message": "欢迎回来",
     "welcome_message_p2":"让我们开始练习吧",
     "footer_text": "© 2024 保留所有权利。",
@@ -75,8 +77,8 @@
     "ze":"ze",
     "zo":"zo",
     "da":"da",
-    "dji":"dji",
-    "dzu":"dzu",
+    "ji":"ji",
+    "zu":"zu",
     "de":"de",
     "do":"do",
     "ba":"ba",
