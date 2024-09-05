@@ -1,5 +1,7 @@
 {
     "title_home": "Página de inicio",
+    "title_test":"Prueba",
+    "title_end":"Prueba completado",
     "welcome_message": "Bienvenido",
     "welcome_message_p2": "¡A practicar!",
     "footer_text": "© 2024 Todos los derechos reservados",
@@ -75,8 +77,8 @@
     "ze":"ze",
     "zo":"zo",
     "da":"da",
-    "dji":"dji",
-    "dzu":"dzu",
+    "ji":"ji",
+    "zu":"zu",
     "de":"de",
     "do":"do",
     "ba":"ba",
