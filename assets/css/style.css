@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&display=swap');
 
-/*
-#6970FD header 
-#5F64D4 header shade/button font
-#8AF3FF button
-#72C2CB button shade */
-
 * {
     text-decoration: none;
     list-style: none;
@@ -37,17 +31,20 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
-    background-color: #6970FD;
+    background-color: #FEA836;
+    height:15vh;
 }
 
 .logo {
-    font-size: 55px;
+    font-size: 35px;
     cursor: pointer;
     padding: 10px;
+    background-color: #FEA836;
+    font-weight: 700;
 }
 
-.headershadow {
-    background-color: #5F64D4;
+header a p {
+    font-size: 20px;
 }
 
 .hamburger {
@@ -55,9 +52,9 @@ header {
     z-index: 5;
     cursor: pointer;
     position: relative;
-    padding: 10px;
+    padding-right: 10px;
     background-color: transparent;
-    margin-top: 1em;
+    margin-top: 12px;
 }
 
 .bar {
@@ -119,7 +116,6 @@ header {
     z-index: 4;
     padding: 1em;
     transition: all .55s ease;
-    background-color: #5F64D4;
 }
 
 .dropdown, .dropbtn {
@@ -134,7 +130,6 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #6970FD;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding: 10px;
@@ -163,91 +158,106 @@ i {
     padding-left:5px;
 }
 
-.headertext {
-    background-color:#6970FD;
+.headertext h2, .headertext h3  {
+    background-color:#FEA836;
     text-align: center;
-    padding:10px;
 }
 
+.headertext h3 {
+    padding-bottom: 10px;
+}
+
+
 /* Body */
+
 .container h2, .container p, table h2 {
-    color:#5F64D4;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    font-size:24px;
 }
 
 .menucontainer {
-    margin: 2em 5em 2em 4em;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap; 
     text-align: center;
     align-items:normal;
     gap:10px;
-    flex-wrap: wrap; 
+    margin: 1em;
 }
 
-section.menucontainer a {
-    background-color: #8AF3FF;
+.menucontainer a {
     cursor:pointer;
     font-size:36px;
-    outline: none;
-    font-family: inherit;
-    margin: 0;
-    overflow: hidden;
-    border: 5px solid #72C2CB;
     border-radius: 1em;
-    padding:10px;
+    width:100%;
+    height:11vh;
 }
 
 section.menucontainer a span {
-    color:#5F64D4;
+    color:#fff;
 }
 
-section.container {
-    margin:1em;
-    color:#5F64D4;
-    background-color: #fff;
+.menucontainer a.lettuce {
+    background-color: #87bf18;
+}
+
+.container p.tomato {
+    text-align:center;
+    font-weight:700;
+}
+
+.tomato {
+    background-color: #E8405B;
+}
+
+.onion {
+    background-color: #a14a81;
+}
+
+.cheese {
+    background-color: #fdc756;
+}
+
+.pickles {
+    background-color: #549a38;
+}
+
+.patty {
+    background-color: #824044;
 }
 
 section.container h2 {
     margin-top:1em;
 }
 
-table {
+table.letterstable {
     margin-top:1em;
 }
 
-tr {
-    padding:10em;
-}
-
-tr, td {
-    border: 5px solid #72C2CB;
-    padding:5px;
-}
-
-th, tr {
-    background-color: #8AF3FF;
-}
-
-table tr th {
-    border:solid 5px #72C2CB;
-    font-size:40px;
-}
-
-th, tr, td {
-    font-family: "M PLUS Rounded 1c";
-    color:#5F64D4;
+.letterstable td:not(.blank) {
+    
+    border: 5px solid #824044;
     font-size:28px;
+    font-family: "M PLUS Rounded 1c";
     font-weight:bold;
-    border-radius: 10px;
+    width:100%;
+}
+
+.letterstable tr {
+    background-color: #bc4d41;
+    border-radius: 5px;
 }
 
 .blank {
     background-color: #fff;
     border:none;
+    border-radius: 0%;
 }
 
 .tablecellimage {
-    background-color: #8AF3FF;
+    background-color: #FEA836;
     padding:10px;
     font-size:40px;
 }
@@ -257,7 +267,7 @@ table tbody tr td span:not(.playbutton) {
 }
 
 .tablecelltitle {
-    background-color: #8AF3FF;
+    background-color: #FEA836;
     padding:10px;
 }
 
@@ -282,7 +292,7 @@ table tbody tr td span:not(.playbutton) {
 
 /* Footer */
 footer {
-    background-color: #6970FD;
+    background-color: #FEA836;
     font-size: 36px;
     padding:10px;
 }
@@ -290,11 +300,16 @@ footer {
     display:flex;
     justify-content:center;
     gap:1em;
+    background-color: #FEA836;
 }
 
 .socialicons li:hover {
     transform: translateY(-10px);
     transition: all 0.55s ease-in-out;
+}
+
+footer ul li a {
+    background-color: #FEA836;
 }
 
 /* Media Queries */
