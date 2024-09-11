@@ -207,23 +207,23 @@ const wLetters = [
 const gLetters= [
     {
         jp: "が",
-        en: "KA"
+        en: "GA"
     },
     {
         jp: "ぎ",
-        en: "KI"
+        en: "GI"
     },
     {
         jp: "ぐ",
-        en: "KU"
+        en: "GU"
     },
     {
         jp: "げ",
-        en: "KE"
+        en: "GE"
     },
     {
         jp: "ご",
-        en: "KO"
+        en: "GO"
     }
 ];
 const zLetters = [
