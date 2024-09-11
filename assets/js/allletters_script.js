@@ -645,7 +645,7 @@ let dLettersHShuffled = dLettersH.sort(() => Math.random() - 0.5);
 let bLettersHShuffled = bLettersH.sort(() => Math.random() - 0.5);
 let pLettersHShuffled = pLettersH.sort(() => Math.random() - 0.5);
 
-let vowelskShuffled = vowels.sort(() => Math.random() - 0.5);
+let vowelskShuffled = vowelsK.sort(() => Math.random() - 0.5);
 let kLettersKShuffled = kLettersK.sort(() => Math.random() - 0.5);
 let sLettersKShuffled = sLettersK.sort(() => Math.random() - 0.5);
 let tLettersKShuffled = tLettersK.sort(() => Math.random() - 0.5);
@@ -661,37 +661,75 @@ let dLettersKShuffled = dLettersK.sort(() => Math.random() - 0.5);
 let bLettersKShuffled = bLettersK.sort(() => Math.random() - 0.5);
 let pLettersKShuffled = pLettersK.sort(() => Math.random() - 0.5);
 
+let allSeion = {
+    ...vowelsH,
+    ...kLettersH,
+    ...sLettersH,
+    ...tLettersH,
+    ...nLettersH,
+    ...hLettersH,
+    ...mLettersH,
+    ...rLettersH,
+    ...yLettersH,
+    ...wLettersH,
+    ...vowelsK,
+    ...kLettersK,
+    ...sLettersK,
+    ...tLettersK,
+    ...nLettersK,
+    ...hLettersK,
+    ...mLettersK,
+    ...rLettersK,
+    ...yLettersK,
+    ...wLettersK,
+}
+
+let allDakuon = {
+    ...gLettersH,
+    ...zLettersH,
+    ...dLettersH,
+    ...bLettersH,
+    ...pLettersH,
+    ...gLettersK,
+    ...zLettersK,
+    ...dLettersK,
+    ...bLettersK,
+    ...pLettersK
+}
+
 let allLetters = [
     ...vowelsH,
     ...kLettersH,
     ...sLettersH,
-    ...tLettersh,
-    ...nLettersh,
-    ...hLettersh,
-    ...mLettersh,
-    ...rLettersh,
-    ...yLettersh,
-    ...wLettersh,
-    ...gLettersh,
-    ...zLettersh,
-    ...dLettersh,
-    ...bLettersh,
-    ...pLettersh,
-    ...vowelsk,
-    ...kLettersk,
-    ...sLettersk,
-    ...tLettersk,
-    ...nLettersk,
-    ...hLettersk,
-    ...mLettersk,
-    ...rLettersk,
-    ...yLettersk,
-    ...wLettersk,
-    ...gLettersk,
-    ...zLettersk,
-    ...dLettersk,
-    ...bLettersk,
-    ...pLettersk
+    ...tLettersH,
+    ...nLettersH,
+    ...hLettersH,
+    ...mLettersH,
+    ...rLettersH,
+    ...yLettersH,
+    ...wLettersH,
+    ...gLettersH,
+    ...zLettersH,
+    ...dLettersH,
+    ...bLettersH,
+    ...pLettersH,
+    ...vowelsK,
+    ...kLettersK,
+    ...sLettersK,
+    ...tLettersK,
+    ...nLettersK,
+    ...hLettersK,
+    ...mLettersK,
+    ...rLettersK,
+    ...yLettersK,
+    ...wLettersK,
+    ...gLettersK,
+    ...zLettersK,
+    ...dLettersK,
+    ...bLettersK,
+    ...pLettersK
 ];
 
+let allSeionShuffled = allSeion.sort(() => Math.random() - 0.5);
+let allDakuonShuffled = allDakuon.sort(() => Math.random() - 0.5);
 let allLettersHKShuffled = allLettersHK.sort(() => Math.random() - 0.5);
