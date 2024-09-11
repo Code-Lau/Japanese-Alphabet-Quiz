@@ -315,7 +315,7 @@ const pLetters = [
     }
 ];
 
-let vowelskShuffled = vowels.sort(() => Math.random() - 0.5);
+let vowelsShuffled = vowels.sort(() => Math.random() - 0.5);
 let kLettersShuffled = kLetters.sort(() => Math.random() - 0.5);
 let sLettersShuffled = sLetters.sort(() => Math.random() - 0.5);
 let tLettersShuffled = tLetters.sort(() => Math.random() - 0.5);
