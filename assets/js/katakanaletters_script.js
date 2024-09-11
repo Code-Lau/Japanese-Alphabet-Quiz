@@ -1,6 +1,6 @@
 /* jshint esversion: 11 */
 
-const vowelsk = [
+const vowels = [
     {
         jp: "ア",
         en: "A",
@@ -315,7 +315,7 @@ const pLetters = [
     }
 ];
 
-let vowelskShuffled = vowelsk.sort(() => Math.random() - 0.5);
+let vowelskShuffled = vowels.sort(() => Math.random() - 0.5);
 let kLettersShuffled = kLetters.sort(() => Math.random() - 0.5);
 let sLettersShuffled = sLetters.sort(() => Math.random() - 0.5);
 let tLettersShuffled = tLetters.sort(() => Math.random() - 0.5);
