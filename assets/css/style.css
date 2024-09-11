@@ -273,6 +273,19 @@ section.container h2 {
     border-radius: 5px;
 }
 
+.kanjitable td:not(.blank) {
+    border: 8px solid #549A38;
+    font-size:28px;
+    font-weight:700;
+    width:100%;
+    padding:5px;
+}
+
+.kanjitable tr {
+    background-color: #87BF18;
+    border-radius: 5px;
+}
+
 .blank {
     background-color: #fff;
     border:none;
@@ -287,7 +300,15 @@ section.container h2 {
     font-size:32px;
 }
 
-table:not(.letterstableh1,.letterstablek,.letterstableh2,.letterstablek2) {
+.testtitlekanji {
+    background-color: #BC4D41;
+    border: solid 10px #824044;
+    border-radius: 0.5em;
+    color:#fff;
+    font-size:32px;
+}
+
+table:not(.letterstableh1,.letterstablek,.letterstableh2,.letterstablek2,.kanjitable) {
     margin:1em;
 }
 
