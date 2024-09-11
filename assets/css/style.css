@@ -116,6 +116,7 @@ header a p {
     z-index: 4;
     padding: 1em;
     transition: all .55s ease;
+    background-color: #FEA836;
 }
 
 .dropdown, .dropbtn {
@@ -136,6 +137,7 @@ header a p {
     border-radius: 5px;
     width: 100%;
     left: 0;
+    background-color: #FEA836;
 }
 
 .dropdown-content a {
@@ -278,28 +280,36 @@ section.container h2 {
 }
 
 .testtitle {
-    color:black;
+    background-color: #F04863;
+    border: solid 10px #F02949;
+    border-radius: 0.5em;
+    color:#fff;
+    font-size:32px;
+}
+
+table:not(.letterstableh1,.letterstablek,.letterstableh2,.letterstablek2) {
+    margin:1em;
 }
 
 .tablecellimage {
-    background-color: #FEA836;
+    background-color:#87BF18;
+    border: solid 10px #549A38;
     padding:10px;
+    border-radius: 10px;
     font-size:40px;
 }
 
-table tbody tr td span:not(.playbutton) {
-    color:#fff;
-}
-
 .tablecelltitle {
-    background-color: #FEA836;
+    background-color:#87BF18;
+    border: solid 10px #549A38;
     padding:10px;
+    border-radius: 10px;
 }
 
 .tablecellbutton {
-    background-color: green;
+    background-color: #2DB455;
+    border: solid 10px #238A41;
     border-radius: 10px;
-    border:none;
 }
 
 .tableimage {
