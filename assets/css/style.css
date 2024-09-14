@@ -81,8 +81,9 @@ header a p {
 
 .dropdown ul {
     display: list-item;
-    list-style:circle;
+    list-style:disc;
     list-style-position: outside;
+    margin-left:1em;
 }
 
 .nav-menu {
@@ -117,6 +118,7 @@ header a p {
     padding: 1em;
     transition: all .55s ease;
     background-color: #FEA836;
+    
 }
 
 .dropdown, .dropbtn {
@@ -138,6 +140,7 @@ header a p {
     width: 100%;
     left: 0;
     background-color: #FEA836;
+   
 }
 
 .dropdown-content a {
@@ -145,7 +148,8 @@ header a p {
     color: white;
     padding: 12px 16px;
     display: block;
-    text-align: left;
+    text-align: left; 
+    
 }
 
 .dropdown:hover {
