@@ -205,6 +205,10 @@ i {
     flex-direction: column;
 }
 
+.choice-text:hover {
+    cursor:pointer;
+}
+
 #cheese {
     background-color: #FDC756;
     border: solid 10px #FEA836;
@@ -249,7 +253,7 @@ i {
     width:10rem;
     height:4rem;
     border: 0.3rem solid #fff;
-    border-radius:3em;
+    border-radius:2em;
     justify-content:center;
 }
 
@@ -257,6 +261,6 @@ i {
     height: 4rem;
     background-color: #fff;
     width: 0%;
-    border-radius:3em;
+    border-radius:2em;
     justify-content:center;
 }
