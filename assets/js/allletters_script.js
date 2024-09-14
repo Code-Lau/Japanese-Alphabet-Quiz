@@ -697,7 +697,7 @@ let allDakuon = {
     ...pLettersK
 }
 
-let allLetters = [
+let allLettersHK = [
     ...vowelsH,
     ...kLettersH,
     ...sLettersH,
