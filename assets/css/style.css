@@ -79,7 +79,7 @@ header a p {
     transform: translateY(-10px) rotate(-45deg);
 }
 
-.dropdown ul {
+.dropdown ul li{
     display: list-item;
     list-style:disc;
     list-style-position: outside;
@@ -118,6 +118,7 @@ header a p {
     padding: 1em;
     transition: all .55s ease;
     background-color: #FEA836;
+    font-size:30px;
     
 }
 
@@ -135,8 +136,7 @@ header a p {
     position: absolute;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 1em;
     width: 100%;
     left: 0;
     background-color: #FEA836;
@@ -146,7 +146,7 @@ header a p {
 .dropdown-content a {
     float: none;
     color: white;
-    padding: 12px 16px;
+    padding: 5px 0 0 0;
     display: block;
     text-align: left; 
     
@@ -370,6 +370,27 @@ footer {
 
 footer ul li a {
     background-color: #FEA836;
+}
+
+/* Error Page */
+
+.error {
+    margin:1em;
+}
+
+.error h1, .error h3, .error p {
+    color:#FEA836;
+    text-align: center;
+}
+
+.error a {
+    margin-top:1em;
+    font-size: 30px;
+    color:#fff;
+    padding:10px;
+    background-color: #FDC756;
+    border: 5px solid #FEA836;
+    border-radius: 10px;
 }
 
 /* Media Queries */
