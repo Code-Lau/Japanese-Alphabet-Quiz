@@ -264,3 +264,40 @@ i {
     border-radius:2em;
     justify-content:center;
 }
+
+/* Footer */
+footer {
+    background-color: #FEA836;
+    font-size: 36px;
+    padding:10px;
+}
+.socialicons {
+    display:flex;
+    justify-content:center;
+    gap:1em;
+    background-color: #FEA836;
+}
+
+footer ul li a {
+    background-color: #FEA836;
+}
+
+/* Media Queries */
+@media screen and (max-width:555px) {
+}
+
+@media screen and (max-width: 979px) {
+}
+
+@media only screen and (min-width: 980px) {
+    .socialicons li:hover {
+    transform: translateY(-10px);
+    transition: all 0.55s ease-in-out;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1450px) {
+}
