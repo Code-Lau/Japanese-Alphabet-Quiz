@@ -67,7 +67,7 @@ switch(quizParam) {
         selectedQuiz = pLettersShuffled;
         break;
     case "all":
-        selectedQuiz = allHLettersShuffled;
+        selectedQuiz = allLettersShuffled;
         break;
     default:
         selectedQuiz = vowelsShuffled;
@@ -116,22 +116,41 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["char"];
 
+        disableChoices();
+
         /* Display Feedback: https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5 */
         const classToApply = selectedAnswer == selectedQuiz[0].jp ? "correct" : "incorrect";
     
         if (classToApply === "correct") {
             incrementScore(CORRECT_BONUS);
+            question.innerText = `CORRECT - ${selectedQuiz[0].jp} = ${selectedQuiz[0].en}`;
+        } else {
+            question.innerText = `INCORRECT - ${selectedQuiz[0].jp} = ${selectedQuiz[0].en}`;
         }
 
         selectedChoice.classList.add(classToApply);
         
         setTimeout(() => {
+            enableChoices();
             selectedQuiz.push(selectedQuiz.splice(0, 1)[0]);
             selectedChoice.classList.remove(classToApply);
             getNewQuestion();
-        }, 1000);
+        }, 2000);
     });
 });
+
+
+function disableChoices() {
+    choices.forEach(choice => {
+        choice.classList.add("disable");
+    });
+}
+
+function enableChoices() {
+    choices.forEach(choice => {
+        choice.classList.remove("disable");
+    });
+}
 
 // /* Score Increment: https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6 */
 incrementScore = num => {
@@ -140,3 +159,7 @@ incrementScore = num => {
 };
 
 startGame();
+Collapse
+
+
+
