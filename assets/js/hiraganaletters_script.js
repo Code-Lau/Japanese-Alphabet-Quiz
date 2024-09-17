@@ -4,314 +4,456 @@ const vowels = [
     {
         jp: "あ",
         en: "A",
+        ru: "a",
+        zh: "安"
     },
     {
         jp: "い",
-        en: "I"
+        en: "I",
+        ru: "и",
+        zh: "以"
     },
     {
         jp: "う",
-        en: "U"
+        en: "U",
+        ru: "у",
+        zh: "宇"
     },
     {
         jp: "え",
-        en: "E"
+        en: "E",
+        ru: "э",
+        zh: "衣"
     },
     {
         jp: "お",
-        en: "O"
+        en: "O",
+        ru: "о",
+        zh: "於"
     }
 ];
 const kLetters= [
     {
         jp: "か",
-        en: "KA"
+        en: "KA",
+        ru: "ка",
+        zh: "加"
     },
     {
         jp: "き",
-        en: "KI"
+        en: "KI",
+        ru: "ки",
+        zh: "幾"
     },
     {
         jp: "く",
-        en: "KU"
+        en: "KU",
+        ru: "ку",
+        zh: "久"
     },
     {
         jp: "け",
-        en: "KE"
+        en: "KE",
+        ru: "кэ",
+        zh: "計"
     },
     {
         jp: "こ",
-        en: "KO"
+        en: "KO",
+        ru: "ко",
+        zh: "己"
     }
 ];
 const sLetters = [
     {
         jp: "さ",
-        en: "SA"
+        en: "SA",
+        ru: "са",
+        zh: "左"
     },
     {
         jp: "し",
-        en: "SHI"
+        en: "SHI",
+        ru: "си",
+        zh: "之"
     },
     {
         jp: "す",
-        en: "SU"
+        en: "SU",
+        ru: "су",
+        zh: "寸"
     },
     {
         jp: "せ",
-        en: "SE"
+        en: "SE",
+        ru: "сэ",
+        zh: "世"
     },
     {
         jp: "そ",
-        en: "SO"
+        en: "SO",
+        ru: "со",
+        zh: "曽"
     }
 ];
 const tLetters = [
     {
         jp: "た",
-        en: "TA"
+        en: "TA",
+        ru: "та",
+        zh: "太"
     },
     {
         jp: "ち",
-        en: "CHI"
+        en: "CHI",
+        ru: "ти",
+        zh: "知"
     },
     {
         jp: "つ",
-        en: "TSU"
+        en: "TSU",
+        ru: "цу",
+        zh: "川"
     },
     {
         jp: "て",
-        en: "TE"
+        en: "TE",
+        ru: "тэ",
+        zh: "天"
     },
     {
         jp: "と",
-        en: "TO"
+        en: "TO",
+        ru: "то",
+        zh: "止"
     }
 ];
 const nLetters = [
     {
         jp: "な",
-        en: "NA"
+        en: "NA",
+        ru: "на",
+        zh: "奈"
     },
     {
         jp: "に",
-        en: "NI"
+        en: "NI",
+        ru: "ни",
+        zh: "仁"
     },
     {
         jp: "ぬ",
-        en: "NU"
+        en: "NU",
+        ru: "ну",
+        zh: "奴"
     },
     {
         jp: "ね",
-        en: "NE"
+        en: "NE",
+        ru: "нэ",
+        zh: "祢"
     },
     {
         jp: "の",
-        en: "NO"
+        en: "NO",
+        ru: "но",
+        zh: "乃"
     }
 ];
 const hLetters = [
     {
         jp: "は",
-        en: "HA"
+        en: "HA",
+        ru: "ха",
+        zh: "波"
     },
     {
         jp: "ひ",
-        en: "HI"
+        en: "HI",
+        ru: "хи",
+        zh: "比"
     },
     {
         jp: "ふ",
-        en: "FU"
+        en: "FU",
+        ru: "фу",
+        zh: "不"
     },
     {
         jp: "へ",
-        en: "HE"
+        en: "HE",
+        ru: "хэ",
+        zh: "部"
     },
     {
         jp: "ほ",
-        en: "HO"
+        en: "HO",
+        ru: "хо",
+        zh: "保"
     }
 ];
 const mLetters = [
     {
         jp: "ま",
-        en: "MA"
+        en: "MA",
+        ru: "ма",
+        zh: "末"
     },
     {
         jp: "み",
-        en: "MI"
+        en: "MI",
+        ru: "ми",
+        zh: "美"
     },
     {
         jp: "む",
-        en: "MU"
+        en: "MU",
+        ru: "му",
+        zh: "武"
     },
     {
         jp: "め",
-        en: "ME"
+        en: "ME",
+        ru: "мэ",
+        zh: "女"
     },
     {
         jp: "も",
-        en: "MO"
+        en: "MO",
+        ru: "мо",
+        zh: "毛"
     }
 ];
 const rLetters = [
     {
         jp: "ら",
-        en: "RA"
+        en: "RA",
+        ru: "ра",
+        zh: "良"
     },
     {
         jp: "り",
-        en: "RI"
+        en: "RI",
+        ru: "ри",
+        zh: "利"
     },
     {
         jp: "る",
-        en: "RU"
+        en: "RU",
+        ru: "ру",
+        zh: "留"
     },
     {
         jp: "れ",
-        en: "RE"
+        en: "RE",
+        ru: "рэ",
+        zh: "礼"
     },
     {
         jp: "ろ",
-        en: "RO"
+        en: "RO",
+        ru: "ро",
+        zh: "呂"
     }
 ];
 const yLetters = [
     {
         jp: "や",
-        en: "YA"
+        en: "YA",
+        ru: "я",
+        zh: "也"
     },
     {
         jp: "ゆ",
-        en: "YU"
+        en: "YU",
+        ru: "ю",
+        zh: "由"
     },
     {
         jp: "よ",
-        en: "YO"
+        en: "YO",
+        ru: "ё",
+        zh: "与"
     }
 ];
 const wLetters = [
     {
         jp: "わ",
-        en: "WA"
+        en: "WA",
+        ru: "ва",
+        zh: "和"
     },
     {
         jp: "を",
-        en: "WO"
+        en: "WO",
+        ru: "во",
+        zh: "遠"
     },
     {
         jp: "ん",
-        en: "N"
+        en: "N",
+        ru: "н",
+        zh: "无"
     }
 ];
 const gLetters= [
     {
         jp: "が",
-        en: "GA"
+        en: "GA",
+        ru: "га",
+        zh: ""
     },
     {
         jp: "ぎ",
-        en: "GI"
+        en: "GI",
+        ru: "ги",
+        zh: ""
     },
     {
         jp: "ぐ",
-        en: "GU"
+        en: "GU",
+        ru: "гу",
+        zh: ""
     },
     {
         jp: "げ",
-        en: "GE"
+        en: "GE",
+        ru: "гэ",
+        zh: ""
     },
     {
         jp: "ご",
-        en: "GO"
+        en: "GO",
+        ru: "го",
+        zh: ""
     }
 ];
 const zLetters = [
     {
         jp: "ざ",
-        en: "ZA"
+        en: "ZA",
+        ru: "дза",
+        zh: ""
     },
     {
         jp: "じ",
-        en: "JI"
+        en: "JI",
+        ru: "дзи",
+        zh: ""
     },
     {
         jp: "ず",
-        en: "ZU"
+        en: "ZU",
+        ru: "дзу",
+        zh: ""
     },
     {
         jp: "ぜ",
-        en: "ZE"
+        en: "ZE",
+        ru: "дзэ",
+        zh: ""
     },
     {
         jp: "ぞ",
-        en: "ZO"
+        en: "ZO",
+        ru: "дзо",
+        zh: ""
     }
 ];
 const dLetters = [
     {
         jp: "だ",
-        en: "DA"
+        en: "DA",
+        ru: "да",
+        zh: ""
     },
     {
         jp: "ぢ",
-        en: "ji"
+        en: "JI",
+        ru: "дзи",
+        zh: ""
     },
     {
         jp: "づ",
-        en: "zu"
+        en: "ZU",
+        ru: "дзу",
+        zh: ""
     },
     {
         jp: "で",
-        en: "DE"
+        en: "DE",
+        ru: "дэ",
+        zh: ""
     },
     {
         jp: "ど",
-        en: "DO"
+        en: "DO",
+        ru: "до",
+        zh: ""
     }
 ];
 const bLetters = [
     {
         jp: "ば",
-        en: "BA"
+        en: "BA",
+        ru: "ба",
+        zh: ""
     },
     {
         jp: "び",
-        en: "BI"
+        en: "BI",
+        ru: "би",
+        zh: ""
     },
     {
         jp: "ぶ",
-        en: "BU"
+        en: "BU",
+        ru: "бу",
+        zh: ""
     },
     {
         jp: "べ",
-        en: "BE"
+        en: "BE",
+        ru: "бэ",
+        zh: ""
     },
     {
         jp: "ぼ",
-        en: "BO"
+        en: "BO",
+        ru: "бо",
+        zh: ""
     }
 ];
 const pLetters = [
     {
         jp: "ぱ",
-        en: "PA"
+        en: "PA",
+        ru: "па",
+        zh: ""
     },
     {
         jp: "ぴ",
-        en: "PI"
+        en: "PI",
+        ru: "пи",
+        zh: ""
     },
     {
         jp: "ぷ",
-        en: "PU"
+        en: "PU",
+        ru: "пу",
+        zh: ""
     },
     {
         jp: "ぺ",
-        en: "PE"
+        en: "PE",
+        ru: "пэ",
+        zh: ""
     },
     {
         jp: "ぽ",
-        en: "PO"
+        en: "PO",
+        ru: "по",
+        zh: ""
     }
 ];
 
@@ -331,7 +473,7 @@ let dLettersShuffled = dLetters.sort(() => Math.random() - 0.5);
 let bLettersShuffled = bLetters.sort(() => Math.random() - 0.5);
 let pLettersShuffled = pLetters.sort(() => Math.random() - 0.5);
 
-let allHLetters = [
+let allLetters = [
     ...vowels,
     ...kLetters,
     ...sLetters,
@@ -349,4 +491,4 @@ let allHLetters = [
     ...pLetters
 ];
 
-let allHLettersShuffled = allHLetters.sort(() => Math.random() - 0.5);
+let allLettersShuffled = allLetters.sort(() => Math.random() - 0.5);
