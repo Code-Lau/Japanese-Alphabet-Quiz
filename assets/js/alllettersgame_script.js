@@ -24,7 +24,7 @@ let selectedQuiz;
 
 switch(quizParam) {
     case "all":
-        selectedQuiz = allLettersHKShuffled;
+        selectedQuiz = allLettersShuffled;
         break;
     case "s":
         selectedQuiz = allSeionShuffled;
@@ -33,7 +33,7 @@ switch(quizParam) {
         selectedQuiz = allDakuonShuffled;
         break;
     default:
-        selectedQuiz = allLettersHKShuffled;
+        selectedQuiz = allLettersShuffled;
 
 }
 
