@@ -96,7 +96,10 @@ The social icons are used from [Font Awesome](https://cdnjs.cloudflare.com/ajax/
 -Currently all the quizzes adopt the flashcard study quiz type, in the future I would like to add different quiz formats to allow for more accessibilty to users. By letting the user choose how they want to study, they can learn more effectively.
 
 **Sharing Results**
--I would like to add a feature that allows the user to copy an image of the results they got on a test or quiz so they can share it with their friends. 
+-I would like to add a feature that allows the user to copy an image of the results they got on a test or quiz so they can share it with their friends.
+
+**More Languages**
+-In production, Hindi was initially planned and then cut due to difficulties. In the future, I would like to have as many langauges as possible as options.
 
 ## Tools & Technologies Used
 For this project, I used gitpod and Visual Studio Code to code in. Github was used to host the repository, Github Pages for the deployment. The main site content was written with HTML, the designs with CSS and the quiz functionality with Javascript. Any images used were put through TinyPng and Webp Converter to reduce the size and convert them to Webp files. The website was originally designed in Figma, although I didn't end up going with said design. Font Awesome was used for all social icons and down arrows. This template along with the template for the TESTING.md file were generated with the Markdown Builer.
@@ -111,6 +114,9 @@ For this project, I used gitpod and Visual Studio Code to code in. Github was us
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site
 - [![Figma](https://img.shields.io/badge/Figma-grey?logo=figma&logoColor=F24E1E)](https://www.figma.com) used for creating wireframes.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
+- [![DeepL Translator](https://www.deepl.com/en/translator)] used for translations.
+- [![Collins Dictionary](https://www.collinsdictionary.com/)] used for translations.
+
 
 ## Testing
 For testing, please refer to the [TESTING.md]() file.
@@ -133,3 +139,15 @@ All code referenced does not belong to me, and is borrowed expressly for learnin
 | []() | | |
 
 ## Content
+
+## Media
+| Source | Content | Location |
+| --- | --- | --- |
+| [Wikipedia](https://www.wikipedia.org/) | Hiragana, Katakana and Kanji characters | All characters can be found on wikipedia. |
+| [DeepLTranslator](https://www.deepl.com/en/translator) | Translations | All translations was made using the DeepL Translator tool alongside other online dictionaries. |
+| [Collins Dictionary](https://www.collinsdictionary.com/) | Specific word translations | The Collins Dictionary was used to double check translations and search for specific words that the DeepL Translator tool may have missed. |
+
+## Acknowledgements
+- I would like to thank my (very cool) Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank my family for help with user testing and UX advice.
