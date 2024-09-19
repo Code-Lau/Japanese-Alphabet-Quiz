@@ -8,6 +8,7 @@
     color:#fff;
     margin:0;
     padding:0;
+    text-shadow: 2px 2px 2px black;
 }
 
 .m-plus-rounded-1c-regular {
@@ -236,10 +237,40 @@ main.indexboxes {
     border: solid 10px #549A38;
 }
 
+section.characters, section.letters {
+    margin:10px;
+    border-radius: 10px;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px 20px;
+    padding:20px;
+    font-size:38px;
+    background-color: #87BF18;
+    border: solid 10px #549A38;
+}
+
+.letters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px 20px;
+    padding:20px;
+    font-size:38px;
+    background-color: #FDC756;
+    border: solid 10px #FEA836;
+}
+
+
+
+
 section.container p.tomato {
     text-align:center;
     font-weight: 700;
-    font-size:32px;
+    font-size:38px;
 }
 
 section.container h2 {
@@ -314,6 +345,7 @@ section.container h2 {
 
 table:not(.letterstableh1,.letterstablek,.letterstableh2,.letterstablek2,.kanjitable) {
     margin:1em;
+    justify-content: center;
 }
 
 .tablecellimage {
