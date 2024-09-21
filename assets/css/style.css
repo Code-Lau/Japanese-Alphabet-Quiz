@@ -181,10 +181,14 @@ main.indexboxes {
     margin-right:4em;
 }
 
-.container h2, .container p, table h2 {
+.container h2, .container p {
     padding:10px;
     margin:10px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.container p {
     font-size:24px;
 }
 
@@ -242,30 +246,65 @@ section.characters, section.letters {
     border-radius: 10px;
 }
 
-.characters {
-    display: flex;
+.charactercontainer {
+    display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap:20px 20px;
-    padding:20px;
-    font-size:38px;
+    justify-content:center;
+    margin:10px;
+    padding:10px;
+    gap:25px;
+    font-size:24px;
     background-color: #87BF18;
     border: solid 10px #549A38;
+    border-radius: 15px;
 }
 
-.letters {
+.lettercontainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap:20px 20px;
-    padding:20px;
-    font-size:38px;
+    justify-content:center;
+    margin:10px;
+    padding:10px;
+    gap:25px;
+    font-size:24px;
     background-color: #FDC756;
     border: solid 10px #FEA836;
+    border-radius: 15px;
 }
 
+.quizcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    gap:5px;
+    font-size:20px;
+}
 
+.charactericon {
+    background-color: #87BF18;
+    border: solid 10px #549A38;
+    padding:10px;
+    margin-bottom:2px;
+    border-radius: 15px;
+    
+}
 
+.quizicon {
+    background-color: #87BF18;
+    border: solid 10px #549A38;
+    padding:10px;
+    border-radius: 15px;
+    
+}
+
+.playicon {
+    background-color: #87BF18;
+    border: solid 10px #549A38;
+    padding:10px;
+    border-radius: 15px;
+}
 
 section.container p.tomato {
     text-align:center;
@@ -282,105 +321,8 @@ section.container h2 {
     font-size:32px;
 }
 
-.letterstableh1 td:not(.blank) {
-    border: 8px solid #549A38;
-    font-size:28px;
-    font-weight:700;
-    width:100%;
-    padding:5px;
-}
 
-.letterstableh1 tr {
-    background-color: #87BF18;
-    border-radius: 5px;
-}
 
-.letterstableh2 td:not(.blank) {
-    border: 8px solid #FEA836;
-    font-size:28px;
-    font-weight:700;
-    width:100%;
-    padding:10px;
-}
-
-.letterstableh2 tr {
-    background-color: #FDC756;
-    border-radius: 5px;
-}
-
-.kanjitable td:not(.blank) {
-    border: 8px solid #549A38;
-    font-size:28px;
-    font-weight:700;
-    width:100%;
-    padding:5px;
-}
-
-.kanjitable tr {
-    background-color: #87BF18;
-    border-radius: 5px;
-}
-
-.blank {
-    background-color: #fff;
-    border:none;
-    border-radius: 0%;
-}
-
-.testtitle {
-    background-color: #F04863;
-    border: solid 10px #F02949;
-    border-radius: 0.5em;
-    color:#fff;
-    font-size:32px;
-}
-
-.testtitlekanji {
-    background-color: #BC4D41;
-    border: solid 10px #824044;
-    border-radius: 0.5em;
-    color:#fff;
-    font-size:32px;
-}
-
-table:not(.letterstableh1,.letterstablek,.letterstableh2,.letterstablek2,.kanjitable) {
-    margin:1em;
-    justify-content: center;
-}
-
-.tablecellimage {
-    background-color:#87BF18;
-    border: solid 10px #549A38;
-    padding:10px;
-    border-radius: 10px;
-    font-size:40px;
-}
-
-.tablecelltitle {
-    background-color:#87BF18;
-    border: solid 10px #549A38;
-    padding:10px;
-    border-radius: 10px;
-}
-
-.tablecellbutton {
-    background-color: #2DB455;
-    border: solid 10px #238A41;
-    border-radius: 10px;
-}
-
-.tableimage {
-    width:100%;
-}
-
-.playbutton {
-    padding:10px;
-}
-
-.tablecellbutton:hover {
-    background-color: greenyellow;
-    transition: 1s;
-}
 
 /* Footer */
 footer {
