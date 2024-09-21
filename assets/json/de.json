@@ -125,6 +125,8 @@
     "hiragana_quizzes":"Hiragana Quizzes",
     "katakana_quizzes":"Katakana Quizzes",
     "all_char_quiz":"Alle Zeichen Quizzes",
+    "all_seion":"Alle Seion",
+    "all_dakuon":"Alle Dakuon",
     "question":"Frage",
     "questiontext":"Welches zeichen ist das?",
     "score":"Punkte"
