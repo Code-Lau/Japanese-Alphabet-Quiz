@@ -125,6 +125,8 @@
     "hiragana_quizzes":"Quiz en Hiragana",
     "katakana_quizzes":"Quiz en Katakana",
     "all_char_quiz":"Quiz sur tous les caractères",
+    "all_seion":"Quiz sur tous les Seion",
+    "all_dakuon":"Quiz sur tous les Dakuon",
     "question":"Question",
     "questiontext":"De quel personnage s'agit-il ?",
     "score":"Score"
