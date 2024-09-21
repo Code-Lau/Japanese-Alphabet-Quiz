@@ -126,6 +126,8 @@
     "hiragana_quizzes":"Hiragana Quizzes",
     "katakana_quizzes":"Katakana Quizzes",
     "all_char_quiz":"All Characters Quizzes",
+    "all_seion":"All Seion",
+    "all_dakuon":"All Dakuon",
     "question":"Question",
     "questiontext":"What is the answer to this question?",
     "score":"Score"
