@@ -125,6 +125,8 @@
     "hiragana_quizzes":"平假名测验",
     "katakana_quizzes":"片假名测验",
     "all_char_quiz":"所有字符测验",
+    "all_seion":"所有海豹",
+    "all_dakuon":"所有达库恩",
     "question":"问题",
     "questiontext":"这是什么字符?",
     "score":"分数"
