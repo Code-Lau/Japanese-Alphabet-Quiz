@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assets/images/alogo.webp" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title data-i18n="tests"></title>
-    </head>
-    <body>
-        <header>
-            <a href="index.html" class="logo">WORD BURGER <p>単語 バーガー</p></a>
-            <div class="nav-menu" id="mynav-menu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/alogo.webp" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title data-i18n="title_test"></title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">WORD BURGER <p>単語 バーガー</p></a>
+        <div class="nav-menu" id="mynav-menu">
+            <a href="index.html" data-i18n="home"></a>
+            <a href="hiragana.html" data-i18n="hiragana"></a>
+            <a href="katakana.html" data-i18n="katakana"></a>
+            <a href="kanji.html" data-i18n="kanji"></a>
+            <a href="words.html" data-i18n="words"></a>
+            <a href="tests.html" data-i18n="tests"></a>
+            <div>
                 <div class="dropdown">
-                    <ul>
-                        <li><a href="index.html" data-i18n="home"></a></li>
-                        <li><a href="hiragana.html" data-i18n="hiragana"></a></li>
-                        <li><a href="katakana.html" data-i18n="katakana"></a></li>
-                        <li><a href="kanji.html" data-i18n="kanji"></a></li>   
-                        <li><a href="words.html" data-i18n="words"></a></li> 
-                        <li><a href="tests.html" data-i18n="tests"></a></li>
-                        <li><a class="dropbtn" data-i18n="site_language"><i class="fa fa-caret-down"></i></a></li>
-                    </ul>
+                    <a class="dropbtn"><span data-i18n="site_language"></span><i class="fa fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <ul>
                             <li><a href="#" data-lang="en">English</a></li>
@@ -33,206 +35,207 @@
                             <li><a href="#" data-lang="ru">Pусский</a></li>
                         </ul>
                     </div>
-                    
                 </div>
             </div>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </header>
-        <main class="container">
-            <br>
-            <h2 class="tomato" data-i18n="hiragana_quizzes"></h2>
-            <section class="quizcontainer">
-                <div class="charactericon">あ</div>
-                <div class="quizicon" data-i18n="vowels_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=vowels" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">か</div>
-                <div class="quizicon" data-i18n="k_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=k" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">さ</div>
-                <div class="quizicon" data-i18n="s_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=s" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">た</div>
-                <div class="quizicon" data-i18n="t_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=t" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">な</div>
-                <div class="quizicon" data-i18n="n_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=n" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">は</div>
-                <div class="quizicon" data-i18n="h_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=h" class="playbutton" data-i18n="play"></a></div>
-            </section>    
-            <section class="quizcontainer">
-                <div class="charactericon">ま</div>
-                <div class="quizicon" data-i18n="m_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=m" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ら</div>
-                <div class="quizicon" data-i18n="r_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=r" class="playbutton" data-i18n="play"></a></div>
-            </section>    
-            <section class="quizcontainer">
-                <div class="charactericon">ん</div>
-                <div class="quizicon" data-i18n="sp_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=w" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">が</div>
-                <div class="quizicon" data-i18n="g_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=g" class="playbutton" data-i18n="play"></a></div>
-            </section>   
-            <section class="quizcontainer">
-                <div class="charactericon">ざ</div>
-                <div class="quizicon" data-i18n="z_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=z" class="playbutton" data-i18n="play"></a></div>
-            </section>   
-            <section class="quizcontainer">
-                <div class="charactericon">だ</div>
-                <div class="quizicon" data-i18n="d_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=d" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ば</div>
-                <div class="quizicon" data-i18n="b_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=b" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ぱ</div>
-                <div class="quizicon" data-i18n="p_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=p" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">や</div>
-                <div class="quizicon" data-i18n="all_quiz"></div>
-                <div class="playicon"><a href="hiraganatest.html?quiz=all" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <h2 class="tomato" data-i18n="katakana_quizzes"></h2>
-            <section class="quizcontainer">
-                <div class="charactericon">ア</div>
-                <div class="quizicon" data-i18n="vowels_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=vowels" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">カ</div>
-                <div class="quizicon" data-i18n="k_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=k" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">サ</div>
-                <div class="quizicon" data-i18n="s_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=s" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">タ</div>
-                <div class="quizicon" data-i18n="t_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=t" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ナ</div>
-                <div class="quizicon" data-i18n="n_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=n" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ハ</div>
-                <div class="quizicon" data-i18n="h_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=h" class="playbutton" data-i18n="play"></a></div>
-            </section>    
-            <section class="quizcontainer">
-                <div class="charactericon">マ</div>
-                <div class="quizicon" data-i18n="m_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=m" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ラ</div>
-                <div class="quizicon" data-i18n="r_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=r" class="playbutton" data-i18n="play"></a></div>
-            </section>    
-            <section class="quizcontainer">
-                <div class="charactericon">ン</div>
-                <div class="quizicon" data-i18n="sp_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=w" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ガ</div>
-                <div class="quizicon" data-i18n="g_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=g" class="playbutton" data-i18n="play"></a></div>
-            </section>   
-            <section class="quizcontainer">
-                <div class="charactericon">ザ</div>
-                <div class="quizicon" data-i18n="z_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=z" class="playbutton" data-i18n="play"></a></div>
-            </section>   
-            <section class="quizcontainer">
-                <div class="charactericon">ダ</div>
-                <div class="quizicon" data-i18n="d_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=d" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">バ</div>
-                <div class="quizicon" data-i18n="b_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=b" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">パ</div>
-                <div class="quizicon" data-i18n="p_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=p" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer">
-                <div class="charactericon">ヤ</div>
-                <div class="quizicon" data-i18n="all_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=all" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <h2 class="tomato" data-i18n="all_char_quiz"></h2>
-            <section class="quizcontainer"></section>
-                <div class="charactericon">か</div>
-                <div class="quizicon" data-i18n="all_seion"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=s" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer"></section>
-                <div class="charactericon">が</div>
-                <div class="quizicon" data-i18n="all_dakuon"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=d" class="playbutton" data-i18n="play"></a></div>
-            </section>
-            <section class="quizcontainer"></section>
-                <div class="charactericon">かが</div>
-                <div class="quizicon" data-i18n="all_char_quiz"></div>
-                <div class="playicon"><a href="katakanatest.html?quiz=all" class="playbutton" data-i18n="play"></a></div>
-            </section>
-        </main>
-        <footer>
-            <ul class="socialicons">
-                <li>
-                    <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        <script src="assets/js/burgermenu_script.js"></script>
-        <script src="assets/js/language_script.js"></script>
-    </body>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <main class="container">
+        <br>
+        <h2 class="tomato" data-i18n="hiragana_quizzes"></h2>
+        <section class="quizcontainer">
+            <div class="charactericon">あ</div>
+            <div class="quizicon" data-i18n="vowels_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=vowels" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">か</div>
+            <div class="quizicon" data-i18n="k_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=k" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">さ</div>
+            <div class="quizicon" data-i18n="s_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=s" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">た</div>
+            <div class="quizicon" data-i18n="t_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=t" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">な</div>
+            <div class="quizicon" data-i18n="n_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=n" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">は</div>
+            <div class="quizicon" data-i18n="h_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=h" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ま</div>
+            <div class="quizicon" data-i18n="m_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=m" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ら</div>
+            <div class="quizicon" data-i18n="r_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=r" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ん</div>
+            <div class="quizicon" data-i18n="sp_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=w" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">が</div>
+            <div class="quizicon" data-i18n="g_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=g" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ざ</div>
+            <div class="quizicon" data-i18n="z_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=z" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">だ</div>
+            <div class="quizicon" data-i18n="d_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=d" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ば</div>
+            <div class="quizicon" data-i18n="b_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=b" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ぱ</div>
+            <div class="quizicon" data-i18n="p_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=p" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">や</div>
+            <div class="quizicon" data-i18n="all_quiz"></div>
+            <div class="playicon"><a href="hiraganatest.html?quiz=all" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <h2 class="tomato" data-i18n="katakana_quizzes"></h2>
+        <section class="quizcontainer">
+            <div class="charactericon">ア</div>
+            <div class="quizicon" data-i18n="vowels_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=vowels" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">カ</div>
+            <div class="quizicon" data-i18n="k_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=k" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">サ</div>
+            <div class="quizicon" data-i18n="s_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=s" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">タ</div>
+            <div class="quizicon" data-i18n="t_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=t" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ナ</div>
+            <div class="quizicon" data-i18n="n_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=n" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ハ</div>
+            <div class="quizicon" data-i18n="h_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=h" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">マ</div>
+            <div class="quizicon" data-i18n="m_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=m" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ラ</div>
+            <div class="quizicon" data-i18n="r_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=r" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ン</div>
+            <div class="quizicon" data-i18n="sp_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=w" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ガ</div>
+            <div class="quizicon" data-i18n="g_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=g" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ザ</div>
+            <div class="quizicon" data-i18n="z_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=z" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ダ</div>
+            <div class="quizicon" data-i18n="d_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=d" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">バ</div>
+            <div class="quizicon" data-i18n="b_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=b" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">パ</div>
+            <div class="quizicon" data-i18n="p_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=p" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer">
+            <div class="charactericon">ヤ</div>
+            <div class="quizicon" data-i18n="all_quiz"></div>
+            <div class="playicon"><a href="katakanatest.html?quiz=all" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <h2 class="tomato" data-i18n="all_char_quiz"></h2>
+        <section class="quizcontainer"></section>
+        <div class="charactericon">か</div>
+        <div class="quizicon" data-i18n="all_seion"></div>
+        <div class="playicon"><a href="katakanatest.html?quiz=s" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer"></section>
+        <div class="charactericon">が</div>
+        <div class="quizicon" data-i18n="all_dakuon"></div>
+        <div class="playicon"><a href="katakanatest.html?quiz=d" class="playbutton" data-i18n="play"></a></div>
+        </section>
+        <section class="quizcontainer"></section>
+        <div class="charactericon">かが</div>
+        <div class="quizicon" data-i18n="all_char_quiz"></div>
+        <div class="playicon"><a href="katakanatest.html?quiz=all" class="playbutton" data-i18n="play"></a></div>
+        </section>
+    </main>
+    <footer>
+        <ul class="socialicons">
+            <li>
+                <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="assets/js/burgermenu_script.js"></script>
+    <script src="assets/js/language_script.js"></script>
+</body>
+
 </html>
