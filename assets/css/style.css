@@ -615,6 +615,15 @@ footer ul li a {
         margin-left:23.5vw;
     }
 
+    .gamepage {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:70%;
+        margin-left:3.5vw;
+        margin-top:4em;
+    }
+
     .quizcontainer, .testcontainer  {
         width:50%;
         margin-left:23.5vw;
@@ -631,6 +640,10 @@ footer ul li a {
     }
     .charactericon {
         font-size:30px;
+    }
+    .quizendcontainer {
+        width:50%;
+        margin-left:23.5vw;
     }
 }
 
