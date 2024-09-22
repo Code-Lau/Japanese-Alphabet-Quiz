@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assets/images/alogo.webp" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title data-i18n="kanji"></title>
-    </head>
-    <body>
-        <header>
-            <a href="index.html" class="logo">WORD BURGER <p>単語 バーガー</p></a>
-            <div class="nav-menu" id="mynav-menu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/alogo.webp" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title data-i18n="title_kanji"></title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">WORD BURGER <p>単語 バーガー</p></a>
+        <div class="nav-menu" id="mynav-menu">
+            <a href="index.html" data-i18n="home"></a>
+            <a href="hiragana.html" data-i18n="hiragana"></a>
+            <a href="katakana.html" data-i18n="katakana"></a>
+            <a href="kanji.html" data-i18n="kanji"></a>
+            <a href="words.html" data-i18n="words"></a>
+            <a href="tests.html" data-i18n="tests"></a>
+            <div>
                 <div class="dropdown">
-                    <ul>
-                        <li><a href="index.html" data-i18n="home"></a></li>
-                        <li><a href="hiragana.html" data-i18n="hiragana"></a></li>
-                        <li><a href="katakana.html" data-i18n="katakana"></a></li>
-                        <li><a href="kanji.html" data-i18n="kanji"></a></li>   
-                        <li><a href="words.html" data-i18n="words"></a></li> 
-                        <li><a href="tests.html" data-i18n="tests"></a></li>
-                        <li><a class="dropbtn" data-i18n="site_language"><i class="fa fa-caret-down"></i></a></li>
-                    </ul>
+                    <a class="dropbtn"><span data-i18n="site_language"></span><i class="fa fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <ul>
                             <li><a href="#" data-lang="en">English</a></li>
@@ -35,96 +37,98 @@
                     </div>
                 </div>
             </div>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </header>
-        <main>
-            <section class="container">
-                <p class="tomato" data-i18n="kanji"></p>
-                <p class="onion" data-i18n="kanji_intro"></p>
-                <p class="cheese" data-i18n="kanji_intro_p2"></p>
-                <p class="pickles" data-i18n="kanji_intro_p3"></p>
-                <table class="kanjitable">
-                    <tr>
-                        <th class="testtitlekanji" colspan="3" data-i18n="numbers"></th>
-                    </tr>
-                    <tr>
-                        <td>一</td>
-                        <td data-i18n="one"></td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>二</td>
-                        <td data-i18n="two"></td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>三</td>
-                        <td data-i18n="three"></td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>四</td>
-                        <td data-i18n="four"></td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>五</td>
-                        <td data-i18n="five"></td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>六</td>
-                        <td data-i18n="six"></td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <td>七</td>
-                        <td data-i18n="seven"></td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>八</td>
-                        <td data-i18n="eight"></td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>九</td>
-                        <td data-i18n="nine"></td>
-                        <td>9</td>
-                    </tr>
-                    <tr>
-                        <td>十</td>
-                        <td data-i18n="ten"></td>
-                        <td>10</td>
-                    </tr>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <p class="tomato" data-i18n="kanji"></p>
+            <p class="onion" data-i18n="kanji_intro"></p>
+            <p class="cheese" data-i18n="kanji_intro_p2"></p>
+            <p class="pickles" data-i18n="kanji_intro_p3"></p>
+            <table class="kanjitable">
+                <tr>
+                    <th class="testtitlekanji" colspan="3" data-i18n="numbers"></th>
+                </tr>
+                <tr>
+                    <td>一</td>
+                    <td data-i18n="one"></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>二</td>
+                    <td data-i18n="two"></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>三</td>
+                    <td data-i18n="three"></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>四</td>
+                    <td data-i18n="four"></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>五</td>
+                    <td data-i18n="five"></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>六</td>
+                    <td data-i18n="six"></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>七</td>
+                    <td data-i18n="seven"></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>八</td>
+                    <td data-i18n="eight"></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>九</td>
+                    <td data-i18n="nine"></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>十</td>
+                    <td data-i18n="ten"></td>
+                    <td>10</td>
+                </tr>
 
-                </table>
-            </section>
-        </main>
-        <footer>
-            <ul class="socialicons">
-                <li>
-                    <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        <script src="assets/js/burgermenu_script.js"></script>
-        <script src="assets/js/language_script.js"></script>
-    </body>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <ul class="socialicons">
+            <li>
+                <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="assets/js/burgermenu_script.js"></script>
+    <script src="assets/js/language_script.js"></script>
+</body>
+
 </html>
