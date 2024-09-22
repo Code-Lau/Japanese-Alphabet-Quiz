@@ -3,6 +3,10 @@
 /* Hard Coded Questions: https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4 
 Questions aren't hard coded but I still used code from this tutorial*/
 
+const urlParams = new URLSearchParams(window.location.search);
+const quizParam = urlParams.get("quiz");
+const selectedLanguage = urlParams.get("lang") || 'en';
+
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const progressText = document.getElementById("progressText");
@@ -17,10 +21,6 @@ let availableQuestions = [];
 
 const CORRECT_BONUS = 10;
 let MAX_QUESTIONS = 5;
-
-const urlParams = new URLSearchParams(window.location.search);
-const quizParam = urlParams.get("quiz");
-
 let selectedQuiz;
 
 switch(quizParam) {
@@ -101,8 +101,22 @@ getNewQuestion = () => {
     
     choices.forEach((choice, i) => {
         const letter = answerPool[i];
+        
         choice.dataset["char"] = letter.jp;
-        choice.innerText = letter.en;
+    
+        switch(selectedLanguage) {
+            case 'en':
+                choice.innerText = letter.en;
+                break;
+            case 'ru':
+                choice.innerText = letter.ru;
+                break;
+            case 'zh':
+                choice.innerText = letter.zh;
+                break;
+            default:
+                choice.innerText = letter.en;
+        }
     });
 
     acceptingAnswers = true;
@@ -158,8 +172,9 @@ incrementScore = num => {
     scoreText.innerText = score;
 };
 
-startGame();
-Collapse
+document.addEventListener("DOMContentLoaded", () => {
+    startGame();
+});
 
 
 
