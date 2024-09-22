@@ -45,30 +45,45 @@ startGame = () => {
 };
 
 getNewQuestion = () => {
-    if (selectedQuiz.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         return window.location.assign('quizend.html');
     }
-    /* Progress Bar: https://www.youtube.com/watch?v=4bctmtuZVcM&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=7 */
+
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const currentLetter = selectedQuiz[0];
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+
+    availableQuestions.splice(questionIndex, 1);
 
     let answerPool = [...selectedQuiz].sort(() => Math.random() - 0.5).slice(0, 4);
 
-    if (!answerPool.includes(currentLetter)) {
-        answerPool[Math.floor(Math.random() * 4)] = currentLetter;
+    if (!answerPool.includes(currentQuestion)) {
+        answerPool[Math.floor(Math.random() * 4)] = currentQuestion;
     }
 
-    question.innerText = `What character is this? ${currentLetter.jp}`;
+    question.innerText = `What character is this? ${currentQuestion.jp}`;
     
     choices.forEach((choice, i) => {
         const letter = answerPool[i];
         choice.dataset["char"] = letter.jp;
-        choice.innerText = letter.en;
+    
+        switch(selectedLanguage) {
+            case 'en':
+                choice.innerText = letter.en;
+                break;
+            case 'ru':
+                choice.innerText = letter.ru;
+                break;
+            case 'zh':
+                choice.innerText = letter.zh;
+                break;
+            default:
+                choice.innerText = letter.en;
+        }
     });
-
     acceptingAnswers = true;
 };
 
