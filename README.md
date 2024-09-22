@@ -1,10 +1,13 @@
-# [Word Burger]()
+# [WORD BURGER](https://code-lau.github.io/Word_Burger)
 
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Code-Lau/Word_Burger)](https://github.com/Code-Lau/Word_Burger/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Code-Lau/Word_Burger)](https://github.com/Code-Lau/Word_Burger/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Code-Lau/Word_Burger)](https://github.com/Code-Lau/Word_Burger)
 Word Burger is an app that aims to help users practise and learn the Japanese alphabet, Hiragana, Katakana and Kanji. 
 
 ![screenshot]()
 
-Here is a demonstration of responsiveness, done through [Am I Responsive?]()
+Here is a demonstration of responsiveness, done through [Am I Responsive?](https://ui.dev/amiresponsive?url=https://code-lau.github.io/Word_Burger/)
 
 ## UX
 This is not a commercial site and as such doesn't need commercial features such as hero sections. The app was designed with a younger audience in mind, and as such I adopted a colourful design scheme. The design is based off a burger and works better when viewed as a mobile app. The header and footer are meant to represent the buns, and the page content represents the ingredients. (The meat of the matter, if you will.)
@@ -50,6 +53,8 @@ The social icons are used from [Font Awesome](https://cdnjs.cloudflare.com/ajax/
 
 **Navigation Menu**
 - The navigation menu features all the main pages the user would be interested, which includes: the home page, the hiragana page, the katakana page, the kanji page, the tests page and the words page. After the words page link is the, site language dropdown menu. This menu is within the navigation menu as a standalone dropdown menu, containing language options for the user to select. The languages available are: English, French, Spanish, German, Portuguese, Russian and Chinese. When any of these are clicked, the page reloads with the respective langauge applies to all text available, excluding the logo. This also includes the navigation menu itself.
+
+![screenshot]()
 
 **Guide Buttons**
 - On the home page I created buttons with the main navigation links the user would be interested in. This includes the hiragana, katakana, kanji, word and tests pages. This was implemented to save the user time, they can find what they are interested in within seconds of loading the home page. This holds their interest and prevents them from getting lost should they not understand how to use the navigation menu. 
@@ -122,30 +127,68 @@ For this project, I used gitpod and Visual Studio Code to code in. Github was us
 For testing, please refer to the [TESTING.md]() file.
 
 ## Deployment
-This site was deployed by Github Pages. The live link can be found [here.]()
+
+The site was deployed to GitHub Pages.
 
 ### Local Deployment
 
 This project can be cloned or forked in order to make a local copy on your own system.
 
-### Cloning
+#### Cloning
 
 You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/Code-Lau/Word_Burger) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/Code-Lau/Word_Burger.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Code-Lau/Word_Burger)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Code-Lau/Word_Burger)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Local VS Deployment
+
+After testing both the local version hosted by Gitpod, and the live version hosted by GitHub Pages I observed no notable differences. This was tested on Firefox.
+
 
 ## Credits 
 All code referenced does not belong to me, and is borrowed expressly for learning purposes.
 | Source | Content | Location |
 | --- | --- | --- |
-| []() | | |
+| [Youtube](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4) Hard Coded Questions|
+| [Youtube](https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5) Display Feedback|
+| [Youtube](https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6) Score Increment|
+| [Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4) Game Choices Format|
+| [Chat GPT](https://chatgpt.com/) Help with game script|
 
 ## Content
-
-## Media
 | Source | Content | Location |
 | --- | --- | --- |
 | [Wikipedia](https://www.wikipedia.org/) | Hiragana, Katakana and Kanji characters | All characters can be found on wikipedia. |
 | [DeepLTranslator](https://www.deepl.com/en/translator) | Translations | All translations was made using the DeepL Translator tool alongside other online dictionaries. |
 | [Collins Dictionary](https://www.collinsdictionary.com/) | Specific word translations | The Collins Dictionary was used to double check translations and search for specific words that the DeepL Translator tool may have missed. |
+
+## Media
+No images were used for this project beyond the favicon, which is an image I created in photoshop using my own text tool.
+
+![screenshot]()
 
 ## Acknowledgements
 - I would like to thank my (very cool) Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
