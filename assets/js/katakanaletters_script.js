@@ -256,7 +256,7 @@ const rLetters = [
         zh: "呂"
     }
 ];
-const yLetters = [
+const wLetters = [
     {
         jp: "ヤ",
         en: "YA",
@@ -274,9 +274,7 @@ const yLetters = [
         en: "YO",
         ru: "ё",
         zh: "与"
-    }
-];
-const wLetters = [
+    },
     {
         jp: "ワ",
         en: "WA",
@@ -415,7 +413,6 @@ let nLettersShuffled = nLetters.sort(() => Math.random() - 0.5);
 let hLettersShuffled = hLetters.sort(() => Math.random() - 0.5);
 let mLettersShuffled = mLetters.sort(() => Math.random() - 0.5);
 let rLettersShuffled = rLetters.sort(() => Math.random() - 0.5);
-let yLettersShuffled = yLetters.sort(() => Math.random() - 0.5);
 let wLettersShuffled = wLetters.sort(() => Math.random() - 0.5);
 let gLettersShuffled = gLetters.sort(() => Math.random() - 0.5);
 let zLettersShuffled = zLetters.sort(() => Math.random() - 0.5);
@@ -432,7 +429,6 @@ let allLetters = [
     ...hLetters,
     ...mLetters,
     ...rLetters,
-    ...yLetters,
     ...wLetters,
     ...gLetters,
     ...zLetters,
