@@ -1,100 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="assets/images/alogo.webp" type="image/x-icon">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <title data-i18n="title_test"></title>
-  </head>
-  <body>
-    <header>
-          <a href="index.html" class="logo">WORD BURGER <p>単語 バーガー</p></a>
-          <div class="nav-menu" id="mynav-menu">
-              <div class="dropdown">
-                  <ul>
-                    <li><a href="index.html" data-i18n="home"></a></li>
-                    <li><a href="hiragana.html" data-i18n="hiragana"></a></li>
-                    <li><a href="katakana.html" data-i18n="katakana"></a></li>
-                    <li><a href="kanji.html" data-i18n="kanji"></a></li>   
-                    <li><a href="words.html" data-i18n="words"></a></li> 
-                    <li><a href="tests.html" data-i18n="tests"></a></li>
-                    <li><a class="dropbtn" data-i18n="site_language"><i class="fa fa-caret-down"></i></a></li>
-                  </ul>
-                  <div class="dropdown-content">
-                      <ul>
-                        <li><a href="#" data-lang="en">English</a></li>
-                        <li><a href="#" data-lang="fr">Français</a></li>
-                        <li><a href="#" data-lang="es">Español</a></li>
-                        <li><a href="#" data-lang="de">Deutsch</a></li>
-                        <li><a href="#" data-lang="pt">Português</a></li>
-                        <li><a href="#" data-lang="zh">中文</a></li>
-                        <li><a href="#" data-lang="ru">Pусский</a></li>
-                    </ul>
-                  </div>
-                  
-              </div>
-          </div>
-          <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-          </div>
-    </header>
-    <main class="gamepage"><!--  Game Choices Format: https://www.youtube.com/watch?v=IK257Ln0MZc&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4 -->
-      <div class="container">
-        <div id="game">
-          <div id="hud">
-            <div id="hud-item">
-              <p id="progressText" class="hud-prefix" data-i18n="question">
-                Question
-              </p>
-              <div id="progressBar">
-                <div id="progressBarFull"></div>
-              </div>
-            </div> 
-            <div id="hud-item">
-              <p class="hud-prefix" data-i18n="score">
-                Score
-              </p>
-              <h1 class="hud-main-text" id="score">
-                0
-              </h1>
-            </div>
-          </div>
-          <h2 id="question" data-i18n="questiontext"></h2>
-          <div id="choices-grid">
-            <span id="cheese" class="choice-text">Choice 1</span>
-            <span id="pickles" class="choice-text">Choice 2</span>
-            <span id="patty" class="choice-text">Choice 3</span>
-            <span id="lettuce" class="choice-text">Choice 4</span>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/alogo.webp" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title data-i18n="title_test"></title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo">WORD BURGER <p>単語 バーガー</p></a>
+    <div class="nav-menu" id="mynav-menu">
+      <a href="index.html" data-i18n="home"></a>
+      <a href="hiragana.html" data-i18n="hiragana"></a>
+      <a href="katakana.html" data-i18n="katakana"></a>
+      <a href="kanji.html" data-i18n="kanji"></a>
+      <a href="words.html" data-i18n="words"></a>
+      <a href="tests.html" data-i18n="tests"></a>
+      <div>
+        <div class="dropdown">
+          <a class="dropbtn"><span data-i18n="site_language"></span><i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#" data-lang="en">English</a></li>
+              <li><a href="#" data-lang="fr">Français</a></li>
+              <li><a href="#" data-lang="es">Español</a></li>
+              <li><a href="#" data-lang="de">Deutsch</a></li>
+              <li><a href="#" data-lang="pt">Português</a></li>
+              <li><a href="#" data-lang="zh">中文</a></li>
+              <li><a href="#" data-lang="ru">Pусский</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </main>
-    <footer>
-      <ul class="socialicons">
-          <li>
-              <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-solid fa-envelope"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-x-twitter"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-youtube"></i>
-              </a>
-          </li>
-      </ul>
-    </footer>
-    <script src="assets/js/hiraganaletters_script.js"></script>
-    <script src="assets/js/game_script.js"></script>
-    <script src="assets/js/burgermenu_script.js"></script>
-    <script src="assets/js/language_script.js"></script>
-  </body>
+    </div>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+  <main class="gamepage">
+    <!--  Game Choices Format: https://www.youtube.com/watch?v=IK257Ln0MZc&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4 -->
+    <div class="container">
+      <div id="game">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix" data-i18n="question">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix" data-i18n="score">
+              Score
+            </p>
+            <h1 class="hud-main-text" id="score">
+              0
+            </h1>
+          </div>
+        </div>
+        <h2 id="question" data-i18n="questiontext"></h2>
+        <div id="choices-grid">
+          <span id="cheese" class="choice-text">Choice 1</span>
+          <span id="pickles" class="choice-text">Choice 2</span>
+          <span id="patty" class="choice-text">Choice 3</span>
+          <span id="lettuce" class="choice-text">Choice 4</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <ul class="socialicons">
+      <li>
+        <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <script src="assets/js/hiraganaletters_script.js"></script>
+  <script src="assets/js/game_script.js"></script>
+  <script src="assets/js/burgermenu_script.js"></script>
+  <script src="assets/js/language_script.js"></script>
+</body>
+
 </html>
