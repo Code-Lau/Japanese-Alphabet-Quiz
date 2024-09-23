@@ -56,7 +56,7 @@ Quiz End Page
 
 ### CSS
 
-For the style sheet, I used the [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+For the style sheet, I used the [CSS Jigsaw Validator.](https://jigsaw.w3.org/css-validator/)
 
 **Style sheet**
 
@@ -65,7 +65,7 @@ For the style sheet, I used the [CSS Jigsaw Validator](https://jigsaw.w3.org/css
 
 ### Javascript
 
-For the javascript files, I used the [JShint Validator](https://jshint.com/) For the "letters" files, they claim to have many unused variables, but this is only true within the file itself. In the case of the website, these files are being called upon in conjunction with the game scripts, and are used on the html game pages.
+For the javascript files, I used the [JShint Validator.](https://jshint.com/) For the "letters" files, they claim to have many unused variables, but this is only true within the file itself. In the case of the website, these files are being called upon in conjunction with the game scripts, and are used on the html game pages.
 
 Burgermenu Script
 
