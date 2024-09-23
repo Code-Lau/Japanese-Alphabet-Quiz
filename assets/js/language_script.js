@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 //1-5 Taken from: https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505
 
 // 1. Function to update content based on selected language
