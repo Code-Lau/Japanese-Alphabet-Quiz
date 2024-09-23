@@ -6,7 +6,7 @@
 
 All files were put the their respective validators, and came back with no errors.
 
-**HTML**
+### HTML
 
 For all HTML files, I used [HTML W3C Validator.](https://validator.w3.org/) For some of these files, it comes back with warnings, stating that I have empty h2 tags or similar. This is done on purpose as I was using the data-i18n tag to translate text. I am aware of these warnings but don't consider them issues.
 
@@ -54,7 +54,7 @@ Quiz End Page
 
 ![screenshot](assets/documentation/quizend.htmlchecker.png)
 
-**CSS**
+### CSS
 
 For the style sheet, I used the [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -63,7 +63,7 @@ For the style sheet, I used the [CSS Jigsaw Validator](https://jigsaw.w3.org/css
 ![screenshot](assets/documentation/stylesheetcheckerp1.png)
 ![screenshot](assets/documentation/stylesheetcheckerp2.png)
 
-**Javascript**
+### Javascript
 
 For the javascript files, I used the [JShint Validator](https://jshint.com/) For the "letters" files, they claim to have many unused variables, but this is only true within the file itself. In the case of the website, these files are being called upon in conjunction with the game scripts, and are used on the html game pages.
 
