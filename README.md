@@ -188,6 +188,7 @@ All code referenced does not belong to me, and is borrowed expressly for learnin
 | [Score Increment](https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6) | Help with score increment and progress bad | Youtube |
 | [Game Choices Format](https://www.youtube.com/watch?v=IK257Ln0MZc&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=4) | Help with question and answer format | Youtube |
 | [ChatGPT](https://chatgpt.com/) | Help with game script| ChatGPT |
+| [Building a Multilingual Static Website](https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505)| Help with making the website multilingual | Medium |
 
 ## Content
 | Source | Content | Not |
