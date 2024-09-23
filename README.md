@@ -130,8 +130,8 @@ For this project, I used gitpod and Visual Studio Code to code in. Github was us
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site
 - [![Figma](https://img.shields.io/badge/Figma-grey?logo=figma&logoColor=F24E1E)](https://www.figma.com) used for creating wireframes.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
-- [![DeepL Translator](https://www.deepl.com/en/translator)] used for translations.
-- [![Collins Dictionary](https://www.collinsdictionary.com/)] used for translations.
+- [![DeepL Translator](https://img.shields.io/badge/DeepL_Translator-grey?logo=deepl&logoColor=0F2B46)](https://www.deepl.com/en/translator) used for translations.
+- [![Collins Dictionary](https://img.shields.io/badge/Collins_Dictionary-grey?logo=c&logoColor=C32C30)](https://www.collinsdictionary.com/) used for translations.
 
 
 ## Testing
