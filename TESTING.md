@@ -8,91 +8,92 @@ All files were put the their respective validators, and came back with no errors
 
 **HTML**
 
-For all HTML files, I used [HTML W3C Validator.](https://validator.w3.org/)
+For all HTML files, I used [HTML W3C Validator.](https://validator.w3.org/) For some of these files, it comes back with warnings, stating that I have empty h2 tags or similar. This is done on purpose as I was using the data-i18n tag to translate text. I am aware of these warnings but don't consider them issues.
 
-- Home Page
+Home Page
 
-![screenshot]()
+![screenshot](assets/documentation/index.htmlchecker.png)
 
-- Hiragana Page
+Hiragana Page
 
-![screenshot]()
+![screenshot](assets/documentation/hiraganatest.htmlchecker.png)
 
-- Katakana Page
+Katakana Page
 
-![screenshot]()
+![screenshot](assets/documentation/katakana.htmlchecker.png)
 
-- Kanji Page
+Kanji Page
 
-![screenshot]()
+![screenshot](assets/documentation/kanji.htmlchecker.png)
 
-- Words Page
+Words Page
 
-![screenshot]()
+![screenshot](assets/documentation/words.htmlchecker.png)
 
-- Tests Page
+Tests Page
 
-![screenshot]()
+![screenshot](assets/documentation/tests.htmlchecker.png)
 
-- Error Page
+Error Page
 
-![screenshot]()
+![screenshot](assets/documentation/errorpage.htmlchecker.png)
 
-- Hiragana Game Page
+Hiragana Game Page
 
-![screenshot]()
+![screenshot](assets/documentation/hiraganatest.htmlchecker.png)
 
-- Katakana Game Page
+Katakana Game Page
 
-![screenshot]()
+![screenshot](assets/documentation/katakanatest.htmlchecker.png)
 
-- All Letters Game Page
+All Letters Game Page
 
-![screenshot]()
+![screenshot](assets/documentation/allletterstest.htmlchecker.png)
 
-- Quiz End Page
+Quiz End Page
 
-![screenshot]()
+![screenshot](assets/documentation/quizend.htmlchecker.png)
 
 **CSS**
 
 For the style sheet, I used the [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
-- Style sheet
+**Style sheet**
 
-![screenshot]()
+![screenshot](assets/documentation/stylesheetcheckerp1.png)
+![screenshot](assets/documentation/stylesheetcheckerp2.png)
 
 **Javascript**
 
-For the javascript files, I used the [JShint Validator](https://jshint.com/)
+For the javascript files, I used the [JShint Validator](https://jshint.com/) For the "letters" files, they claim to have many unused variables, but this is only true within the file itself. In the case of the website, these files are being called upon in conjunction with the game scripts, and are used on the html game pages.
 
-- Burgermenu Script
+Burgermenu Script
 
-![screenshot]()
+![screenshot](assets/documentation/burgermenuscriptjshint.png)
 
-- Game Script (For Hiragana and Katakana seperately)
+Game Script (For Hiragana and Katakana seperately)
 
-![screenshot]()
+![screenshot](assets/documentation/gamescriptjshint.png)
 
-- All Letters Script (For both Hiragana and Katakana together)
+All Letters Game Script (For both Hiragana and Katakana together)
 
-![screenshot]()
+![screenshot](assets/documentation/alllettersgamescriptjshint.png)
 
-- Language Script
+Language Script
 
-![screenshot]()
+![screenshot](assets/documentation/languagescriptjshint.png)
 
-- Hiragana Letters Script
+Hiragana Letters Script
 
-![screenshot]()
+![screenshot](assets/documentation/hiraganalettersscriptjshint.png)
 
-- Katakana Letters Script
+Katakana Letters Script
 
-![screenshot]()
+![screenshot](assets/documentation/katakanalettersscriptjshint.png)
 
-- All Letters Script
+All Letters Script
 
-![screenshot]()
+![screenshot](assets/documentation/alllettersscriptjshint.png)
 
 ## Responsiveness
 
@@ -170,3 +171,61 @@ Here I manually tested all functionality and features across all responsive size
 **Edge** 
 
 ![screenshot](assets/documentation/edgetest.png)
+
+## Lighthouse Tests
+
+I ran a lighthouse test for the home page and the game page to test the performance of the website.
+
+| Home | Quiz |
+| :---: | :---: |
+| ![screenshot](assets/documentation/lighthousehome.png) | ![screenshot](assets/documentation/lighthousequiz.png) |
+
+## Manual Testing
+
+| Test | Goal | Outcome |
+| --- | --- | --- |
+| Responsiveness | Website should be responsive to all screen sizes | Passed |
+| Logo | The logo should redirect the user to the home page if clicked | Passed |
+| Nav Menu | All navigational links should direct the user to the intended source | Passed |
+| Buttons | All buttons should function to answer questions | Passed |
+| Score | Score should increase upon answering a question correctly | Passed |
+| Language | The language should change to the respective choice when instructed to | Passed |
+| Progress Bar | The progress bar should increase regardless of the answer being correct | Passed |
+| Social Icons | All social icons should open a separate tab to the appropriate social media | Passed |
+
+## Site Speed Tests
+
+For this, I used [Catchpoint's Site Performance Service.](https://www.webpagetest.org/) This allows you to test site performance, speed, core web vitals and visual comparisons on all devices.
+
+![screenshot](assets/documentation/pageperformance.png)
+
+### Device Compatibilty 
+
+For device compatibilty I tested the following devices:
+- Two desktop computers using Firefox and Chrome respectively
+
+- ASUS Notebook PC using Chrome 
+
+- Samsung Galaxy S20 FE
+
+- Samsung Galaxy A12
+
+- Samsung Galaxy M12
+
+- Samsung Galaxy A03
+
+All of these devices had no issues running the site or interacting with features.
+    
+### User Experience Testing
+
+- I asked some family and friends to load the website on their devices and to test anything that seemed like it was interactable. The feedback was unanimous in that there were no issues.
+- The design was clear and easy to understand, they had no issue navigating the site or information presented. 
+- They offered some suggestions for design and content that I hope to implement in the future.
+
+### User Feedback Incorporation:
+Some suggestions for features I have taken on board include 
+- Recommended colours
+- "A" character favicon
+
+### Bugs
+There are no remaining bugs that I'm aware of.
