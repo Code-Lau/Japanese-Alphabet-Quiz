@@ -68,7 +68,7 @@ getNewQuestion = () => {
     
     choices.forEach((choice, i) => {
         const letter = answerPool[i];
-        choice.dataset[char] = letter.jp;
+        choice.dataset.i = letter.jp;
     
         switch(selectedLanguage) {
             case 'en':
@@ -93,7 +93,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset[char];
+        const selectedAnswer = selectedChoice.dataset.i;
 
         /* Display Feedback: https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5 */
         const classToApply = selectedAnswer == selectedQuiz[0].jp ? "correct" : "incorrect";
