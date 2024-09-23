@@ -195,7 +195,7 @@ All code referenced does not belong to me, and is borrowed expressly for learnin
 | [Building a Multilingual Static Website](https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505)| Help with making the website multilingual | Medium |
 
 ## Content
-| Source | Content | Not |
+| Source | Content | Notes |
 | --- | --- | --- |
 | [Wikipedia](https://www.wikipedia.org/) | Hiragana, Katakana and Kanji characters | All characters can be found on wikipedia. |
 | [DeepLTranslator](https://www.deepl.com/en/translator) | Translations | All translations was made using the DeepL Translator tool alongside other online dictionaries. |
