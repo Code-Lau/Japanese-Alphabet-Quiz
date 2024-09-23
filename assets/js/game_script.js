@@ -102,7 +102,7 @@ getNewQuestion = () => {
     choices.forEach((choice, i) => {
         const letter = answerPool[i];
         
-        choice.dataset[char] = letter.jp;
+        choice.dataset.i = letter.jp;
     
         switch(selectedLanguage) {
             case 'en':
@@ -128,7 +128,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset[char];
+        const selectedAnswer = selectedChoice.dataset.i;
 
         disableChoices();
 
