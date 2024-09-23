@@ -87,6 +87,10 @@ The social icons are used from [Font Awesome](https://cdnjs.cloudflare.com/ajax/
 
 ![screenshot](assets/documentation/wordspage.webp)
 
+**The Tests Page**
+- The tests page displays a complete list of all available tests to the user. This includes quizzes only containing hiragana characters, quizzes containing only katakana characters, and both.
+![screenshot](assets/documentation/testsdesktop.png)
+
 **The Error Page**
 - This page is a failsafe to help users navigate back to the home menu should there be an issue with connecting them to the right page.
 ![screenshot](assets/documentation/errorpage.webp)
